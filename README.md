@@ -25,7 +25,11 @@
   </tr>
   <tr>
     <td align="center"><b>Datos e infra<br/><sub>Data & infra</sub></b></td>
-    <td><picture><img src="https://skillicons.dev/icons?i=sqlite,postgres,supabase,cloudflare,vercel,linux,git,github&perline=8" alt="SQLite, PostgreSQL, Supabase, Cloudflare, Vercel, Linux, Git, GitHub"/></picture></td>
+    <td>
+      <picture><img src="https://skillicons.dev/icons?i=sqlite,postgres,supabase,cloudflare,vercel,linux,git,github&perline=8" alt="SQLite, PostgreSQL, Supabase, Cloudflare, Vercel, Linux, Git, GitHub"/></picture>
+      <br/>
+      <picture><img src="https://img.shields.io/badge/Oracle%20Database-F80000?style=for-the-badge" alt="Oracle Database"/></picture>
+    </td>
   </tr>
   <tr>
     <td align="center"><b>Industria<br/><sub>Industry</sub></b></td>
@@ -34,6 +38,19 @@
       <picture><img src="https://img.shields.io/badge/Excel%20%C2%B7%20PI%20DataLink-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Excel · PI DataLink"/></picture>
       <br/>
       <picture><img src="https://img.shields.io/badge/SampleManager%20LIMS%2021.3%20%C2%B7%20Thermo%20Fisher-4B5563?style=for-the-badge" alt="SampleManager LIMS 21.3 · Thermo Fisher"/></picture>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>AI Harness</b></td>
+    <td>
+      <picture><img src="https://img.shields.io/badge/Claude%20Code-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude Code"/></picture>
+      <picture><img src="https://img.shields.io/badge/Codex-000000?style=for-the-badge" alt="Codex"/></picture>
+      <picture><img src="https://img.shields.io/badge/OpenCode-211E1E?style=for-the-badge&logo=opencode&logoColor=white" alt="OpenCode"/></picture>
+      <picture><img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama"/></picture>
+      <br/>
+      <picture><img src="https://img.shields.io/badge/Alera%20ADE-6E40C9?style=for-the-badge" alt="Alera ADE"/></picture>
+      <picture><img src="https://img.shields.io/badge/Antigravity-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Antigravity"/></picture>
+      <picture><img src="https://img.shields.io/badge/MCP-1F2937?style=for-the-badge&logo=modelcontextprotocol&logoColor=white" alt="MCP"/></picture>
     </td>
   </tr>
 </table>
