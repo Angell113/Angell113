@@ -161,12 +161,22 @@ Plataforma que reúne en una sola aplicación los **datos de procesos** de la di
 <table>
 <tr><td>
 
-<h3>Puente EAA – Integración de equipos analíticos con LIMS</h3>
+<h3>Integración equipos LIMS</h3>
 
-<picture><img src="https://img.shields.io/badge/Windows-0078D4?style=flat-square&logo=windows&logoColor=white" alt="Windows"/></picture>
+<picture><img src="https://img.shields.io/badge/Windows-0078D4?style=flat-square" alt="Windows"/></picture>
+<picture><img src="https://img.shields.io/badge/Portable-2EA44F?style=flat-square" alt="Portable"/></picture>
+<picture><img src="https://img.shields.io/badge/SampleManager%20LIMS%2021.3-4B5563?style=flat-square" alt="SampleManager LIMS 21.3"/></picture>
+
+Tres aplicaciones de escritorio que conectan equipos analíticos del laboratorio con **SampleManager LIMS 21.3**, sin modificar el software de los equipos ni la base de datos del LIMS.
+
+</td></tr>
+<tr><td>
+
+<h4>Puente EAA – Equipos de absorción atómica</h4>
+
 <picture><img src="https://img.shields.io/badge/Sin%20dependencias-2EA44F?style=flat-square" alt="Sin dependencias"/></picture>
 
-Aplicación de escritorio que conecta los equipos de **absorción atómica (EAA)** con **SampleManager LIMS 21.3**, sin tocar la base de datos.
+Conecta los equipos de **absorción atómica (EAA)** con el LIMS.
 
 - Lee los resultados del equipo y las hojas de etiquetas, y **detecta los lotes**.
 - Escribe en una carpeta vigilada que procesa el Parsing Script del LIMS.
@@ -180,7 +190,53 @@ Aplicación de escritorio que conecta los equipos de **absorción atómica (EAA)
 <picture><img src="https://img.shields.io/badge/Windows%20Forms-0078D4?style=flat-square" alt="Windows Forms"/></picture>
 <picture><img src="https://img.shields.io/badge/GDI%2B-555555?style=flat-square" alt="GDI+"/></picture>
 <picture><img src="https://img.shields.io/badge/SHA--256-555555?style=flat-square" alt="SHA-256"/></picture>
-<picture><img src="https://img.shields.io/badge/SampleManager%20LIMS%2021.3-4B5563?style=flat-square" alt="SampleManager LIMS 21.3"/></picture>
+
+</td></tr>
+<tr><td>
+
+<h4>APT Bridge – Titulador Hanon APT960</h4>
+
+<picture><img src="https://img.shields.io/badge/Fail--closed-B91C1C?style=flat-square" alt="Fail-closed"/></picture>
+
+Conecta el **titulador potenciométrico Hanon APT960** con el LIMS sin modificar el software ni las bases de datos del equipo.
+
+- Lee el encabezado .lbl del LIMS y carga la batería en el equipo mediante **automatización Win32**, verificando cada fila escrita.
+- Monitorea Export.mdb en solo lectura y muestra cada resultado apenas el equipo lo termina.
+- Publica la salida para el LIMS de forma **atómica**, solo con la batería completa y sin ambigüedades.
+- Diseño **fail-closed**: nunca inicia la titulación y detiene la carga ante cualquier discrepancia.
+- Perfiles por equipo (Acidez, Cl potenciométrico, pH) y **un solo .exe portable** con hash SHA-256.
+
+<picture><img src="https://skillicons.dev/icons?i=py,qt,windows,powershell" alt="Python, Qt, Windows, PowerShell"/></picture>
+<br/>
+<picture><img src="https://img.shields.io/badge/Python%203.12-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python 3.12"/></picture>
+<picture><img src="https://img.shields.io/badge/PyQt6-41CD52?style=flat-square&logo=qt&logoColor=white" alt="PyQt6"/></picture>
+<picture><img src="https://img.shields.io/badge/pywin32%20%C2%B7%20Win32%20API-0078D4?style=flat-square" alt="pywin32 · Win32 API"/></picture>
+<picture><img src="https://img.shields.io/badge/Microsoft%20Jet%204.0-555555?style=flat-square" alt="Microsoft Jet 4.0"/></picture>
+<picture><img src="https://img.shields.io/badge/PyInstaller-555555?style=flat-square" alt="PyInstaller"/></picture>
+<picture><img src="https://img.shields.io/badge/SHA--256-555555?style=flat-square" alt="SHA-256"/></picture>
+
+</td></tr>
+<tr><td>
+
+<h4>Azufre Watcher – Analizador de azufre LECO</h4>
+
+<picture><img src="https://img.shields.io/badge/~135%20KB-2EA44F?style=flat-square" alt="~135 KB"/></picture>
+
+Vigila los reportes .csv del **analizador LECO** y los deja listos para el LIMS, que solo acepta muestras con exactamente 3 réplicas.
+
+- Si un reporte trae 4 a 6 réplicas, **conserva las 3 más concordantes**, descartando una a una las más alejadas de la mediana.
+- Edita el archivo **a nivel de bytes**: formato, codificación y encabezado salen idénticos al original del equipo.
+- Publica de forma **atómica** (.tmp + rename), sin sobrescribir y solo cuando el archivo de origen terminó de escribirse.
+- Validación opcional de concordancia por rango y RSD: retiene la muestra y exige una decisión del operador.
+- Trazabilidad completa en bitácora, **LED de estado** visible a distancia y un solo .exe portable con hash SHA-256.
+
+<picture><img src="https://skillicons.dev/icons?i=cs,dotnet,windows,powershell" alt="C#, .NET, Windows, PowerShell"/></picture>
+<br/>
+<picture><img src="https://img.shields.io/badge/.NET%20Framework%204.0-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET Framework 4.0"/></picture>
+<picture><img src="https://img.shields.io/badge/WinForms-0078D4?style=flat-square" alt="WinForms"/></picture>
+<picture><img src="https://img.shields.io/badge/csc.exe%20in--box-555555?style=flat-square" alt="csc.exe in-box"/></picture>
+<picture><img src="https://img.shields.io/badge/INI-555555?style=flat-square" alt="INI"/></picture>
+<picture><img src="https://img.shields.io/badge/SHA--256-555555?style=flat-square" alt="SHA-256"/></picture>
 
 </td></tr>
 </table>
@@ -357,12 +413,22 @@ Platform that brings the division's **process data** (DRT, SX-EW and copper bund
 <table>
 <tr><td>
 
-<h3>EAA Bridge – Analytical instrument integration with LIMS</h3>
+<h3>LIMS instrument integration</h3>
 
-<picture><img src="https://img.shields.io/badge/Windows-0078D4?style=flat-square&logo=windows&logoColor=white" alt="Windows"/></picture>
+<picture><img src="https://img.shields.io/badge/Windows-0078D4?style=flat-square" alt="Windows"/></picture>
+<picture><img src="https://img.shields.io/badge/Portable-2EA44F?style=flat-square" alt="Portable"/></picture>
+<picture><img src="https://img.shields.io/badge/SampleManager%20LIMS%2021.3-4B5563?style=flat-square" alt="SampleManager LIMS 21.3"/></picture>
+
+Three desktop apps that connect laboratory analytical instruments to **SampleManager LIMS 21.3**, without modifying the instruments' software or the LIMS database.
+
+</td></tr>
+<tr><td>
+
+<h4>EAA Bridge – Atomic absorption instruments</h4>
+
 <picture><img src="https://img.shields.io/badge/No%20dependencies-2EA44F?style=flat-square" alt="No dependencies"/></picture>
 
-Desktop app that connects **atomic absorption (AAS)** instruments to **SampleManager LIMS 21.3**, without touching the database.
+Connects **atomic absorption (AAS)** instruments to the LIMS.
 
 - Reads the instrument's results and label sheets, and **detects batches**.
 - Writes to a watched folder processed by the LIMS Parsing Script.
@@ -376,7 +442,53 @@ Desktop app that connects **atomic absorption (AAS)** instruments to **SampleMan
 <picture><img src="https://img.shields.io/badge/Windows%20Forms-0078D4?style=flat-square" alt="Windows Forms"/></picture>
 <picture><img src="https://img.shields.io/badge/GDI%2B-555555?style=flat-square" alt="GDI+"/></picture>
 <picture><img src="https://img.shields.io/badge/SHA--256-555555?style=flat-square" alt="SHA-256"/></picture>
-<picture><img src="https://img.shields.io/badge/SampleManager%20LIMS%2021.3-4B5563?style=flat-square" alt="SampleManager LIMS 21.3"/></picture>
+
+</td></tr>
+<tr><td>
+
+<h4>APT Bridge – Hanon APT960 titrator</h4>
+
+<picture><img src="https://img.shields.io/badge/Fail--closed-B91C1C?style=flat-square" alt="Fail-closed"/></picture>
+
+Connects the **Hanon APT960 potentiometric titrator** to the LIMS without modifying the instrument's software or databases.
+
+- Reads the LIMS .lbl header and loads the batch into the instrument through **Win32 automation**, verifying every row written.
+- Monitors Export.mdb read-only and shows each result as soon as the instrument finishes it.
+- Publishes the LIMS output **atomically**, only with the full batch and no ambiguity.
+- **Fail-closed** design: never starts the titration and stops loading on any mismatch.
+- Per-instrument profiles (Acidity, potentiometric Cl, pH) and **a single portable .exe** with SHA-256 hash.
+
+<picture><img src="https://skillicons.dev/icons?i=py,qt,windows,powershell" alt="Python, Qt, Windows, PowerShell"/></picture>
+<br/>
+<picture><img src="https://img.shields.io/badge/Python%203.12-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python 3.12"/></picture>
+<picture><img src="https://img.shields.io/badge/PyQt6-41CD52?style=flat-square&logo=qt&logoColor=white" alt="PyQt6"/></picture>
+<picture><img src="https://img.shields.io/badge/pywin32%20%C2%B7%20Win32%20API-0078D4?style=flat-square" alt="pywin32 · Win32 API"/></picture>
+<picture><img src="https://img.shields.io/badge/Microsoft%20Jet%204.0-555555?style=flat-square" alt="Microsoft Jet 4.0"/></picture>
+<picture><img src="https://img.shields.io/badge/PyInstaller-555555?style=flat-square" alt="PyInstaller"/></picture>
+<picture><img src="https://img.shields.io/badge/SHA--256-555555?style=flat-square" alt="SHA-256"/></picture>
+
+</td></tr>
+<tr><td>
+
+<h4>Sulfur Watcher – LECO sulfur analyzer</h4>
+
+<picture><img src="https://img.shields.io/badge/~135%20KB-2EA44F?style=flat-square" alt="~135 KB"/></picture>
+
+Watches the **LECO analyzer** .csv reports and prepares them for the LIMS, which only accepts samples with exactly 3 replicates.
+
+- When a report has 4 to 6 replicates, it **keeps the 3 most consistent**, dropping the ones farthest from the median one by one.
+- Edits the file **at byte level**: format, encoding and header stay identical to the instrument's original.
+- Publishes **atomically** (.tmp + rename), without overwriting and only once the source file is fully written.
+- Optional consistency check by range and RSD: holds the sample and requires an operator decision.
+- Full audit log, a **status LED** visible from a distance and a single portable .exe with SHA-256 hash.
+
+<picture><img src="https://skillicons.dev/icons?i=cs,dotnet,windows,powershell" alt="C#, .NET, Windows, PowerShell"/></picture>
+<br/>
+<picture><img src="https://img.shields.io/badge/.NET%20Framework%204.0-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET Framework 4.0"/></picture>
+<picture><img src="https://img.shields.io/badge/WinForms-0078D4?style=flat-square" alt="WinForms"/></picture>
+<picture><img src="https://img.shields.io/badge/csc.exe%20in--box-555555?style=flat-square" alt="csc.exe in-box"/></picture>
+<picture><img src="https://img.shields.io/badge/INI-555555?style=flat-square" alt="INI"/></picture>
+<picture><img src="https://img.shields.io/badge/SHA--256-555555?style=flat-square" alt="SHA-256"/></picture>
 
 </td></tr>
 </table>
