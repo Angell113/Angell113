@@ -78,7 +78,6 @@ Administro el **LIMS** del Laboratorio Químico de Codelco División Radomiro To
 
 <h3>Sistema de Inventario EPP – DRT</h3>
 
-<picture><img src="https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white" alt="PWA"/></picture>
 <picture><img src="https://img.shields.io/badge/En%20producci%C3%B3n-2EA44F?style=flat-square" alt="En producción"/></picture>
 
 Aplicación web progresiva para controlar el inventario de **elementos de protección personal** del laboratorio.
@@ -106,7 +105,7 @@ Aplicación web progresiva para controlar el inventario de **elementos de protec
 
 <h3>Asistencia FTE / HH – DRT</h3>
 
-<picture><img src="https://img.shields.io/badge/Repositorio%20privado-6E7781?style=flat-square&logo=github&logoColor=white" alt="Repositorio privado"/></picture>
+<picture><img src="https://img.shields.io/badge/En%20producci%C3%B3n-2EA44F?style=flat-square" alt="En producción"/></picture>
 
 Sistema web de **control de asistencia** y cálculo de **FTE y horas hombre** por área.
 
@@ -134,7 +133,7 @@ Sistema web de **control de asistencia** y cálculo de **FTE y horas hombre** po
 
 <h3>RADIM – Unificación de sistemas de información minera</h3>
 
-<picture><img src="https://img.shields.io/badge/Repositorio%20privado-6E7781?style=flat-square&logo=github&logoColor=white" alt="Repositorio privado"/></picture>
+<picture><img src="https://img.shields.io/badge/En%20producci%C3%B3n-2EA44F?style=flat-square" alt="En producción"/></picture>
 
 Plataforma que reúne en una sola aplicación los **datos de procesos** de la división (DRT, SX-EW y lingadas).
 
@@ -163,10 +162,6 @@ Plataforma que reúne en una sola aplicación los **datos de procesos** de la di
 
 <h3>Integración equipos LIMS</h3>
 
-<picture><img src="https://img.shields.io/badge/Windows-0078D4?style=flat-square" alt="Windows"/></picture>
-<picture><img src="https://img.shields.io/badge/Portable-2EA44F?style=flat-square" alt="Portable"/></picture>
-<picture><img src="https://img.shields.io/badge/SampleManager%20LIMS%2021.3-4B5563?style=flat-square" alt="SampleManager LIMS 21.3"/></picture>
-
 Tres aplicaciones de escritorio que conectan equipos analíticos del laboratorio con **SampleManager LIMS 21.3**, sin modificar el software de los equipos ni la base de datos del LIMS.
 
 </td></tr>
@@ -174,7 +169,7 @@ Tres aplicaciones de escritorio que conectan equipos analíticos del laboratorio
 
 <h4>Puente EAA – Equipos de absorción atómica</h4>
 
-<picture><img src="https://img.shields.io/badge/Sin%20dependencias-2EA44F?style=flat-square" alt="Sin dependencias"/></picture>
+<picture><img src="https://img.shields.io/badge/En%20producci%C3%B3n-2EA44F?style=flat-square" alt="En producción"/></picture>
 
 Conecta los equipos de **absorción atómica (EAA)** con el LIMS.
 
@@ -196,7 +191,7 @@ Conecta los equipos de **absorción atómica (EAA)** con el LIMS.
 
 <h4>APT Bridge – Titulador Hanon APT960</h4>
 
-<picture><img src="https://img.shields.io/badge/Fail--closed-B91C1C?style=flat-square" alt="Fail-closed"/></picture>
+<picture><img src="https://img.shields.io/badge/En%20producci%C3%B3n-2EA44F?style=flat-square" alt="En producción"/></picture>
 
 Conecta el **titulador potenciométrico Hanon APT960** con el LIMS sin modificar el software ni las bases de datos del equipo.
 
@@ -220,7 +215,7 @@ Conecta el **titulador potenciométrico Hanon APT960** con el LIMS sin modificar
 
 <h4>Azufre Watcher – Analizador de azufre LECO</h4>
 
-<picture><img src="https://img.shields.io/badge/~135%20KB-2EA44F?style=flat-square" alt="~135 KB"/></picture>
+<picture><img src="https://img.shields.io/badge/En%20producci%C3%B3n-2EA44F?style=flat-square" alt="En producción"/></picture>
 
 Vigila los reportes .csv del **analizador LECO** y los deja listos para el LIMS, que solo acepta muestras con exactamente 3 réplicas.
 
@@ -246,8 +241,7 @@ Vigila los reportes .csv del **analizador LECO** y los deja listos para el LIMS,
 
 <h3>Asistente documental RAG – SampleManager LIMS 21.3</h3>
 
-<picture><img src="https://img.shields.io/badge/100%25%20local-2EA44F?style=flat-square" alt="100% local"/></picture>
-<picture><img src="https://img.shields.io/badge/Sin%20nube-2EA44F?style=flat-square" alt="Sin nube"/></picture>
+<picture><img src="https://img.shields.io/badge/En%20producci%C3%B3n-2EA44F?style=flat-square" alt="En producción"/></picture>
 
 Motor de búsqueda con **recuperación aumentada (RAG)** sobre toda la documentación técnica de **SampleManager LIMS 21.3**, consultable por agentes de IA mediante **MCP**.
 
@@ -330,7 +324,6 @@ I manage the **LIMS** of the Chemical Laboratory at Codelco Radomiro Tomic Divis
 
 <h3>PPE Inventory System – DRT</h3>
 
-<picture><img src="https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white" alt="PWA"/></picture>
 <picture><img src="https://img.shields.io/badge/In%20production-2EA44F?style=flat-square" alt="In production"/></picture>
 
 Progressive web app that tracks the laboratory's **personal protective equipment** inventory.
@@ -358,7 +351,7 @@ Progressive web app that tracks the laboratory's **personal protective equipment
 
 <h3>FTE / Man-Hours Attendance – DRT</h3>
 
-<picture><img src="https://img.shields.io/badge/Private%20repository-6E7781?style=flat-square&logo=github&logoColor=white" alt="Private repository"/></picture>
+<picture><img src="https://img.shields.io/badge/In%20production-2EA44F?style=flat-square" alt="In production"/></picture>
 
 Web system for **attendance tracking** and **FTE and man-hour** calculation by area.
 
@@ -386,7 +379,7 @@ Web system for **attendance tracking** and **FTE and man-hour** calculation by a
 
 <h3>RADIM – Mining information systems unification</h3>
 
-<picture><img src="https://img.shields.io/badge/Private%20repository-6E7781?style=flat-square&logo=github&logoColor=white" alt="Private repository"/></picture>
+<picture><img src="https://img.shields.io/badge/In%20production-2EA44F?style=flat-square" alt="In production"/></picture>
 
 Platform that brings the division's **process data** (DRT, SX-EW and copper bundles) into a single application.
 
@@ -415,10 +408,6 @@ Platform that brings the division's **process data** (DRT, SX-EW and copper bund
 
 <h3>LIMS instrument integration</h3>
 
-<picture><img src="https://img.shields.io/badge/Windows-0078D4?style=flat-square" alt="Windows"/></picture>
-<picture><img src="https://img.shields.io/badge/Portable-2EA44F?style=flat-square" alt="Portable"/></picture>
-<picture><img src="https://img.shields.io/badge/SampleManager%20LIMS%2021.3-4B5563?style=flat-square" alt="SampleManager LIMS 21.3"/></picture>
-
 Three desktop apps that connect laboratory analytical instruments to **SampleManager LIMS 21.3**, without modifying the instruments' software or the LIMS database.
 
 </td></tr>
@@ -426,7 +415,7 @@ Three desktop apps that connect laboratory analytical instruments to **SampleMan
 
 <h4>EAA Bridge – Atomic absorption instruments</h4>
 
-<picture><img src="https://img.shields.io/badge/No%20dependencies-2EA44F?style=flat-square" alt="No dependencies"/></picture>
+<picture><img src="https://img.shields.io/badge/In%20production-2EA44F?style=flat-square" alt="In production"/></picture>
 
 Connects **atomic absorption (AAS)** instruments to the LIMS.
 
@@ -448,7 +437,7 @@ Connects **atomic absorption (AAS)** instruments to the LIMS.
 
 <h4>APT Bridge – Hanon APT960 titrator</h4>
 
-<picture><img src="https://img.shields.io/badge/Fail--closed-B91C1C?style=flat-square" alt="Fail-closed"/></picture>
+<picture><img src="https://img.shields.io/badge/In%20production-2EA44F?style=flat-square" alt="In production"/></picture>
 
 Connects the **Hanon APT960 potentiometric titrator** to the LIMS without modifying the instrument's software or databases.
 
@@ -472,7 +461,7 @@ Connects the **Hanon APT960 potentiometric titrator** to the LIMS without modify
 
 <h4>Sulfur Watcher – LECO sulfur analyzer</h4>
 
-<picture><img src="https://img.shields.io/badge/~135%20KB-2EA44F?style=flat-square" alt="~135 KB"/></picture>
+<picture><img src="https://img.shields.io/badge/In%20production-2EA44F?style=flat-square" alt="In production"/></picture>
 
 Watches the **LECO analyzer** .csv reports and prepares them for the LIMS, which only accepts samples with exactly 3 replicates.
 
@@ -498,8 +487,7 @@ Watches the **LECO analyzer** .csv reports and prepares them for the LIMS, which
 
 <h3>RAG documentation assistant – SampleManager LIMS 21.3</h3>
 
-<picture><img src="https://img.shields.io/badge/100%25%20local-2EA44F?style=flat-square" alt="100% local"/></picture>
-<picture><img src="https://img.shields.io/badge/No%20cloud-2EA44F?style=flat-square" alt="No cloud"/></picture>
+<picture><img src="https://img.shields.io/badge/In%20production-2EA44F?style=flat-square" alt="In production"/></picture>
 
 **Retrieval-augmented generation (RAG)** search engine over the full technical documentation of **SampleManager LIMS 21.3**, queryable by AI agents through **MCP**.
 
