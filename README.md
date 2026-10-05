@@ -270,6 +270,62 @@ Motor de búsqueda con **recuperación aumentada (RAG)** sobre toda la documenta
 </td></tr>
 </table>
 
+<table>
+<tr><td>
+
+<h3>Sistema de ingreso de datos Lingada Cátodos – SGS Minerals S.A.</h3>
+
+<picture><img src="https://img.shields.io/badge/En%20producci%C3%B3n-2EA44F?style=flat-square" alt="En producción"/></picture>
+
+Aplicación de escritorio para registrar fallas o **no-conformidades** de la inspección física de cátodos.
+
+- Registro de las no-conformidades detectadas en la **inspección física de cátodos**.
+- **Dashboard** consultable por fechas, ítems y banco-grupos.
+- Envío de **correos automáticos**.
+- Generación de **informes en PDF**.
+
+<picture><img src="https://skillicons.dev/icons?i=electron,js,nodejs" alt="Electron, JavaScript, Node.js"/></picture>
+<br/>
+<picture><img src="https://img.shields.io/badge/Electron%2041-47848F?style=flat-square&logo=electron&logoColor=white" alt="Electron 41"/></picture>
+<picture><img src="https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white" alt="Chart.js"/></picture>
+<picture><img src="https://img.shields.io/badge/jsPDF-B91C1C?style=flat-square" alt="jsPDF"/></picture>
+<picture><img src="https://img.shields.io/badge/Nodemailer-22B573?style=flat-square" alt="Nodemailer"/></picture>
+
+</td></tr>
+</table>
+
+<table>
+<tr><td>
+
+<h3>Pareto de Fallas TMM – Análisis de fallas de equipos</h3>
+
+<picture><img src="https://img.shields.io/badge/En%20producci%C3%B3n-2EA44F?style=flat-square" alt="En producción"/></picture>
+
+App de escritorio que reemplaza el Excel de registro de fallas TMM (DRT) y genera **análisis de confiabilidad** por equipo y componente.
+
+- Registro de fallas por turno (A/B) y drill-down **Pareto 80/20**: equipo → componente → observación → datos.
+- Análisis **Jack-knife** (MTTR / N° fallas), matriz de decisión, histórico de horas y comparativa mensual.
+- Importa el Excel legado y matrices diarias; exporta a Excel, CSV, PNG y PDF, con **lector/escritor OOXML propio**.
+- **Informe diario automático** en PDF enviado por Gmail (OAuth2 y API REST implementados a mano).
+- **Sincronización multi-PC** por carpeta compartida SMB: un archivo por PC, fusión last-writer-wins, lock y auto-reparación de ACL.
+- Login con roles (Admin/Operador), contraseñas PBKDF2-SHA256 y bloqueo por intentos fallidos.
+- **Un solo .exe** sin instalador, sin admin y sin dependencias de terceros.
+
+<picture><img src="https://skillicons.dev/icons?i=cs,dotnet,windows" alt="C#, .NET, Windows"/></picture>
+<br/>
+<picture><img src="https://img.shields.io/badge/.NET%20Framework%204.8-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET Framework 4.8"/></picture>
+<picture><img src="https://img.shields.io/badge/WinForms-0078D4?style=flat-square" alt="WinForms"/></picture>
+<picture><img src="https://img.shields.io/badge/Roslyn%20(csc%20portable)-555555?style=flat-square" alt="Roslyn (csc portable)"/></picture>
+<picture><img src="https://img.shields.io/badge/JSON%20%C2%B7%20DataContractJsonSerializer-555555?style=flat-square" alt="JSON · DataContractJsonSerializer"/></picture>
+<picture><img src="https://img.shields.io/badge/DataVisualization%20Chart-555555?style=flat-square" alt="DataVisualization Chart"/></picture>
+<picture><img src="https://img.shields.io/badge/System.IO.Compression-555555?style=flat-square" alt="System.IO.Compression"/></picture>
+<picture><img src="https://img.shields.io/badge/Gmail%20API%20%C2%B7%20OAuth2-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail API · OAuth2"/></picture>
+<picture><img src="https://img.shields.io/badge/PBKDF2-555555?style=flat-square" alt="PBKDF2"/></picture>
+<picture><img src="https://img.shields.io/badge/SMB%20%2F%20UNC-555555?style=flat-square" alt="SMB / UNC"/></picture>
+
+</td></tr>
+</table>
+
 <br/>
 
 <h2>Experiencia</h2>
@@ -517,6 +573,62 @@ Watches the **LECO analyzer** .csv reports and prepares them for the LIMS, which
 <picture><img src="https://img.shields.io/badge/PyMuPDF-555555?style=flat-square" alt="PyMuPDF"/></picture>
 <picture><img src="https://img.shields.io/badge/BM25%20%2B%20RRF-555555?style=flat-square" alt="BM25 + RRF"/></picture>
 <picture><img src="https://img.shields.io/badge/SampleManager%20LIMS%2021.3-4B5563?style=flat-square" alt="SampleManager LIMS 21.3"/></picture>
+
+</td></tr>
+</table>
+
+<table>
+<tr><td>
+
+<h3>Lingada Cathodes data entry system – SGS Minerals S.A.</h3>
+
+<picture><img src="https://img.shields.io/badge/In%20production-2EA44F?style=flat-square" alt="In production"/></picture>
+
+Desktop app to record failures or **non-conformities** found during the physical inspection of copper cathodes.
+
+- Records the non-conformities found in the **physical inspection of cathodes**.
+- **Dashboard** filterable by date, item and bank-group.
+- Sends **automatic emails**.
+- Generates **PDF reports**.
+
+<picture><img src="https://skillicons.dev/icons?i=electron,js,nodejs" alt="Electron, JavaScript, Node.js"/></picture>
+<br/>
+<picture><img src="https://img.shields.io/badge/Electron%2041-47848F?style=flat-square&logo=electron&logoColor=white" alt="Electron 41"/></picture>
+<picture><img src="https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white" alt="Chart.js"/></picture>
+<picture><img src="https://img.shields.io/badge/jsPDF-B91C1C?style=flat-square" alt="jsPDF"/></picture>
+<picture><img src="https://img.shields.io/badge/Nodemailer-22B573?style=flat-square" alt="Nodemailer"/></picture>
+
+</td></tr>
+</table>
+
+<table>
+<tr><td>
+
+<h3>TMM Failure Pareto – Equipment failure analysis</h3>
+
+<picture><img src="https://img.shields.io/badge/In%20production-2EA44F?style=flat-square" alt="In production"/></picture>
+
+Desktop app that replaces the TMM (DRT) failure-log Excel and produces **reliability analysis** by equipment and component.
+
+- Failure logging by shift (A/B) and **80/20 Pareto** drill-down: equipment → component → observation → data.
+- **Jack-knife** analysis (MTTR / number of failures), decision matrix, hours history and monthly comparison.
+- Imports the legacy Excel and daily matrices; exports to Excel, CSV, PNG and PDF with a **custom OOXML reader/writer**.
+- **Automatic daily PDF report** sent through Gmail (OAuth2 and REST API implemented by hand).
+- **Multi-PC sync** over an SMB shared folder: one file per PC, last-writer-wins merge, locking and ACL self-repair.
+- Role-based login (Admin/Operator), PBKDF2-SHA256 passwords and lockout after failed attempts.
+- **A single .exe**: no installer, no admin rights and no third-party dependencies.
+
+<picture><img src="https://skillicons.dev/icons?i=cs,dotnet,windows" alt="C#, .NET, Windows"/></picture>
+<br/>
+<picture><img src="https://img.shields.io/badge/.NET%20Framework%204.8-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET Framework 4.8"/></picture>
+<picture><img src="https://img.shields.io/badge/WinForms-0078D4?style=flat-square" alt="WinForms"/></picture>
+<picture><img src="https://img.shields.io/badge/Roslyn%20(csc%20portable)-555555?style=flat-square" alt="Roslyn (csc portable)"/></picture>
+<picture><img src="https://img.shields.io/badge/JSON%20%C2%B7%20DataContractJsonSerializer-555555?style=flat-square" alt="JSON · DataContractJsonSerializer"/></picture>
+<picture><img src="https://img.shields.io/badge/DataVisualization%20Chart-555555?style=flat-square" alt="DataVisualization Chart"/></picture>
+<picture><img src="https://img.shields.io/badge/System.IO.Compression-555555?style=flat-square" alt="System.IO.Compression"/></picture>
+<picture><img src="https://img.shields.io/badge/Gmail%20API%20%C2%B7%20OAuth2-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail API · OAuth2"/></picture>
+<picture><img src="https://img.shields.io/badge/PBKDF2-555555?style=flat-square" alt="PBKDF2"/></picture>
+<picture><img src="https://img.shields.io/badge/SMB%20%2F%20UNC-555555?style=flat-square" alt="SMB / UNC"/></picture>
 
 </td></tr>
 </table>
