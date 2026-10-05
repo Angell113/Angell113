@@ -27,8 +27,7 @@
     <td align="center"><b>Datos e infra<br/><sub>Data & infra</sub></b></td>
     <td>
       <picture><img src="https://skillicons.dev/icons?i=sqlite,postgres,supabase,cloudflare,vercel,linux,git,github&perline=8" alt="SQLite, PostgreSQL, Supabase, Cloudflare, Vercel, Linux, Git, GitHub"/></picture>
-      <br/>
-      <picture><img src="https://img.shields.io/badge/Oracle%20Database-F80000?style=for-the-badge" alt="Oracle Database"/></picture>
+      <picture><img src="assets/oracle.svg" width="48" height="48" alt="Oracle Database"/></picture>
     </td>
   </tr>
   <tr>
