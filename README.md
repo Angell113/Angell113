@@ -361,6 +361,46 @@ App de escritorio que reemplaza el Excel de registro de fallas TMM (DRT) y gener
 </td></tr>
 </table>
 
+<br/>
+
+<h2>Educación</h2>
+
+<table>
+<tr><td>
+
+<h3>Claude Code 101 · Anthropic</h3>
+
+<picture><img src="https://img.shields.io/badge/2026-2C5364?style=flat-square" alt="2026"/></picture>
+<picture><img src="https://img.shields.io/badge/Anthropic-191919?style=flat-square&logo=anthropic&logoColor=white" alt="Anthropic"/></picture>
+<picture><img src="https://img.shields.io/badge/Curso%20completado-2EA44F?style=flat-square" alt="Curso completado"/></picture>
+
+Curso oficial de Anthropic completado, con todos los fundamentos para la **programación agéntica**.
+
+</td></tr>
+<tr><td>
+
+<h3>LIMS Administration for SampleManager · Thermo Fisher Scientific</h3>
+
+<picture><img src="https://img.shields.io/badge/2025-2C5364?style=flat-square" alt="2025"/></picture>
+<picture><img src="https://img.shields.io/badge/Thermo%20Fisher%20Scientific-4B5563?style=flat-square" alt="Thermo Fisher Scientific"/></picture>
+<picture><img src="https://img.shields.io/badge/Curso%20online-2EA44F?style=flat-square" alt="Curso online"/></picture>
+
+Formación con los fundamentos básicos para la **administración de LIMS** usando SampleManager.
+
+</td></tr>
+<tr><td>
+
+<h3>Ingeniero en Telecomunicaciones, Conectividad y Redes · INACAP</h3>
+
+<picture><img src="https://img.shields.io/badge/2019%20%E2%80%93%202023-2C5364?style=flat-square" alt="2019 – 2023"/></picture>
+<picture><img src="https://img.shields.io/badge/INACAP-C8102E?style=flat-square" alt="INACAP"/></picture>
+<picture><img src="https://img.shields.io/badge/T%C3%ADtulo%20profesional-2EA44F?style=flat-square" alt="Título profesional"/></picture>
+
+Formación en soluciones de **infraestructura de redes**, bases de datos y programas para automatizar tareas de redes. Manejo de entornos virtuales con **Linux** para construir y validar las estructuras requeridas.
+
+</td></tr>
+</table>
+
 </details>
 
 <!-- ============================== ENGLISH ============================== -->
@@ -664,6 +704,46 @@ Desktop app that replaces the TMM (DRT) failure-log Excel and produces **reliabi
 <picture><img src="https://img.shields.io/badge/On--site-555555?style=flat-square" alt="On-site"/></picture>
 
 - IT support and **Linux Virtual Server** administration.
+
+</td></tr>
+</table>
+
+<br/>
+
+<h2>Education</h2>
+
+<table>
+<tr><td>
+
+<h3>Claude Code 101 · Anthropic</h3>
+
+<picture><img src="https://img.shields.io/badge/2026-2C5364?style=flat-square" alt="2026"/></picture>
+<picture><img src="https://img.shields.io/badge/Anthropic-191919?style=flat-square&logo=anthropic&logoColor=white" alt="Anthropic"/></picture>
+<picture><img src="https://img.shields.io/badge/Course%20completed-2EA44F?style=flat-square" alt="Course completed"/></picture>
+
+Anthropic's official course, covering the fundamentals of **agentic programming**.
+
+</td></tr>
+<tr><td>
+
+<h3>LIMS Administration for SampleManager · Thermo Fisher Scientific</h3>
+
+<picture><img src="https://img.shields.io/badge/2025-2C5364?style=flat-square" alt="2025"/></picture>
+<picture><img src="https://img.shields.io/badge/Thermo%20Fisher%20Scientific-4B5563?style=flat-square" alt="Thermo Fisher Scientific"/></picture>
+<picture><img src="https://img.shields.io/badge/Online%20course-2EA44F?style=flat-square" alt="Online course"/></picture>
+
+Training on the fundamentals of **LIMS administration** with SampleManager.
+
+</td></tr>
+<tr><td>
+
+<h3>Telecommunications, Connectivity and Networks Engineer · INACAP</h3>
+
+<picture><img src="https://img.shields.io/badge/2019%20%E2%80%93%202023-2C5364?style=flat-square" alt="2019 – 2023"/></picture>
+<picture><img src="https://img.shields.io/badge/INACAP-C8102E?style=flat-square" alt="INACAP"/></picture>
+<picture><img src="https://img.shields.io/badge/Professional%20degree-2EA44F?style=flat-square" alt="Professional degree"/></picture>
+
+Training in **network infrastructure** solutions, databases and programs to automate networking tasks. Hands-on work with **Linux** virtual environments to build and validate the required structures.
 
 </td></tr>
 </table>
