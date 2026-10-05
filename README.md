@@ -169,6 +169,36 @@ Aplicación de escritorio que conecta los equipos de **absorción atómica (EAA)
 </td></tr>
 </table>
 
+<table>
+<tr><td>
+
+<h3>Asistente documental RAG – SampleManager LIMS 21.3</h3>
+
+<picture><img src="https://img.shields.io/badge/100%25%20local-2EA44F?style=flat-square" alt="100% local"/></picture>
+<picture><img src="https://img.shields.io/badge/Sin%20nube-2EA44F?style=flat-square" alt="Sin nube"/></picture>
+
+Motor de búsqueda con **recuperación aumentada (RAG)** sobre toda la documentación técnica de **SampleManager LIMS 21.3**, consultable por agentes de IA mediante **MCP**.
+
+- Indexa **48.067 documentos** (HTML, PDF, CHM y C#) en **92.500 fragmentos**.
+- **Búsqueda híbrida**: BM25 por palabras y embeddings por significado, combinados con Reciprocal Rank Fusion.
+- Cada respuesta cita **ruta, sección, módulo y página** del documento original.
+- Pregunta en español sobre documentación en inglés, con expansión de términos.
+- Servidor **MCP** para Claude Code, además de interfaz web, API y CLI.
+- Todo corre en el equipo: SQLite y NumPy, con LLM local opcional en **Ollama**.
+
+<picture><img src="https://skillicons.dev/icons?i=py,sqlite,fastapi,powershell" alt="Python, SQLite, FastAPI, PowerShell"/></picture>
+<br/>
+<picture><img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama"/></picture>
+<picture><img src="https://img.shields.io/badge/MCP-000000?style=flat-square&logo=modelcontextprotocol&logoColor=white" alt="MCP"/></picture>
+<picture><img src="https://img.shields.io/badge/SQLite%20FTS5-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite FTS5"/></picture>
+<picture><img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy"/></picture>
+<picture><img src="https://img.shields.io/badge/PyMuPDF-555555?style=flat-square" alt="PyMuPDF"/></picture>
+<picture><img src="https://img.shields.io/badge/BM25%20%2B%20RRF-555555?style=flat-square" alt="BM25 + RRF"/></picture>
+<picture><img src="https://img.shields.io/badge/SampleManager%20LIMS%2021.3-4B5563?style=flat-square" alt="SampleManager LIMS 21.3"/></picture>
+
+</td></tr>
+</table>
+
 <br/>
 
 <h2>Experiencia</h2>
@@ -330,6 +360,36 @@ Desktop app that connects **atomic absorption (AAS)** instruments to **SampleMan
 <picture><img src="https://img.shields.io/badge/Windows%20Forms-0078D4?style=flat-square" alt="Windows Forms"/></picture>
 <picture><img src="https://img.shields.io/badge/GDI%2B-555555?style=flat-square" alt="GDI+"/></picture>
 <picture><img src="https://img.shields.io/badge/SHA--256-555555?style=flat-square" alt="SHA-256"/></picture>
+<picture><img src="https://img.shields.io/badge/SampleManager%20LIMS%2021.3-4B5563?style=flat-square" alt="SampleManager LIMS 21.3"/></picture>
+
+</td></tr>
+</table>
+
+<table>
+<tr><td>
+
+<h3>RAG documentation assistant – SampleManager LIMS 21.3</h3>
+
+<picture><img src="https://img.shields.io/badge/100%25%20local-2EA44F?style=flat-square" alt="100% local"/></picture>
+<picture><img src="https://img.shields.io/badge/No%20cloud-2EA44F?style=flat-square" alt="No cloud"/></picture>
+
+**Retrieval-augmented generation (RAG)** search engine over the full technical documentation of **SampleManager LIMS 21.3**, queryable by AI agents through **MCP**.
+
+- Indexes **48,067 documents** (HTML, PDF, CHM and C#) into **92,500 chunks**.
+- **Hybrid search**: BM25 keyword ranking plus semantic embeddings, merged with Reciprocal Rank Fusion.
+- Every answer cites the **path, section, module and page** of the source document.
+- Ask in Spanish about English documentation, with term expansion.
+- **MCP** server for Claude Code, plus web UI, API and CLI.
+- Runs entirely on-premise: SQLite and NumPy, with an optional local LLM on **Ollama**.
+
+<picture><img src="https://skillicons.dev/icons?i=py,sqlite,fastapi,powershell" alt="Python, SQLite, FastAPI, PowerShell"/></picture>
+<br/>
+<picture><img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama"/></picture>
+<picture><img src="https://img.shields.io/badge/MCP-000000?style=flat-square&logo=modelcontextprotocol&logoColor=white" alt="MCP"/></picture>
+<picture><img src="https://img.shields.io/badge/SQLite%20FTS5-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite FTS5"/></picture>
+<picture><img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy"/></picture>
+<picture><img src="https://img.shields.io/badge/PyMuPDF-555555?style=flat-square" alt="PyMuPDF"/></picture>
+<picture><img src="https://img.shields.io/badge/BM25%20%2B%20RRF-555555?style=flat-square" alt="BM25 + RRF"/></picture>
 <picture><img src="https://img.shields.io/badge/SampleManager%20LIMS%2021.3-4B5563?style=flat-square" alt="SampleManager LIMS 21.3"/></picture>
 
 </td></tr>
