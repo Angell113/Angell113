@@ -1,123 +1,380 @@
-<h1 align="center">Miguel Ángel Núñez Silva</h1>
-<p align="center">Encargado Informático LIMS · Minería · Integración de sistemas industriales<br/>
-<sub>LIMS IT Lead · Mining · Industrial systems integration</sub></p>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Miguel%20%C3%81ngel%20N%C3%BA%C3%B1ez%20Silva&fontSize=40&fontColor=ffffff&fontAlignY=38&desc=Encargado%20Inform%C3%A1tico%20LIMS%20%C2%B7%20LIMS%20IT%20Lead&descSize=18&descAlignY=58" alt="Miguel Ángel Núñez Silva"/>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1200&color=2C7A9B&center=true&vCenter=true&width=640&lines=SampleManager+LIMS+%C2%B7+AVEVA+PI+System+%C2%B7+Oracle;Software+para+miner%C3%ADa+%C2%B7+Software+for+mining;Automatizaci%C3%B3n+%C2%B7+Dashboards+%C2%B7+Integraciones" alt="SampleManager LIMS · AVEVA PI System · Oracle"/>
+</p>
 
 <p align="center">
   <!-- TODO: reemplazar "#" por los links reales -->
   <a href="#"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <img src="https://img.shields.io/badge/Calama%2C%20Chile-2C5364?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Calama, Chile"/>
 </p>
 
----
+<br/>
+
+<h2 align="center">Stack</h2>
+
+<table align="center">
+  <tr>
+    <td align="center"><b>Lenguajes<br/><sub>Languages</sub></b></td>
+    <td><img src="https://skillicons.dev/icons?i=py,cs,dotnet,js,ts,html,css,powershell&perline=8" alt="Python, C#, .NET, JavaScript, TypeScript, HTML, CSS, PowerShell"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Frameworks</b></td>
+    <td><img src="https://skillicons.dev/icons?i=react,vite,nextjs,tailwind,nodejs,fastapi,deno,electron&perline=8" alt="React, Vite, Next.js, Tailwind, Node.js, FastAPI, Deno, Electron"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Datos e infra<br/><sub>Data & infra</sub></b></td>
+    <td><img src="https://skillicons.dev/icons?i=sqlite,postgres,supabase,cloudflare,vercel,linux,git,github&perline=8" alt="SQLite, PostgreSQL, Supabase, Cloudflare, Vercel, Linux, Git, GitHub"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Industria<br/><sub>Industry</sub></b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle"/>
+      <img src="https://img.shields.io/badge/AVEVA%20PI%20System-0067B1?style=for-the-badge" alt="AVEVA PI System"/>
+      <img src="https://img.shields.io/badge/SampleManager%20LIMS-4B5563?style=for-the-badge" alt="SampleManager LIMS"/>
+      <br/>
+      <img src="https://img.shields.io/badge/Excel%20%C2%B7%20PI%20DataLink-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Excel · PI DataLink"/>
+      <img src="https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white" alt="Chart.js"/>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<!-- ============================== ESPAÑOL ============================== -->
 
 <details open>
 <summary><b>Español</b> <sub>(clic para contraer)</sub></summary>
 
-### Sobre mí
+<br/>
 
-Ingeniero a cargo de sistemas críticos en la industria minera, en Calama, Chile. Administro el LIMS del Laboratorio Químico de Codelco División Radomiro Tomic, integro equipos analíticos con AVEVA PI System y desarrollo software a medida para la operación: inventario, KPIs, reportes y dashboards automatizados.
+<h2>Sobre mí</h2>
 
-### Proyectos
+Ingeniero a cargo de **sistemas críticos en la industria minera**, en Calama, Chile.
 
-#### Sistema de Inventario EPP – DRT
-Aplicación web progresiva (PWA) para controlar el inventario de elementos de protección personal del laboratorio. Registra entradas, salidas y stock crítico, permite que los trabajadores soliciten EPP escaneando un código QR e importa y exporta datos en Excel. Es online-first, pero guarda una caché local en IndexedDB para zonas con poca señal. Los permisos se aplican en la base de datos con RLS y funciones SECURITY DEFINER para cuatro roles, y las Edge Functions administran usuarios y envían avisos de solicitudes.
+Administro el **LIMS** del Laboratorio Químico de Codelco División Radomiro Tomic, integro equipos analíticos con **AVEVA PI System** y desarrollo **software a medida** para la operación: inventario, KPIs, reportes y dashboards automatizados.
 
-**Stack:** React 19 · React Router 7 · Vite 8 · JavaScript · CSS/SVG propios · Service Worker · IndexedDB (idb) · Supabase (Postgres, Auth, RLS, Edge Functions en Deno) · SheetJS · qrcode · Vercel · ESLint
+<br/>
 
-#### Asistencia FTE / HH – DRT
-Sistema web de control de asistencia y cálculo de FTE y horas hombre por área. Tiene login propio con sesiones por token, cuatro roles (Admin, ADP, RRHH, Supervisor) con alcance por área, Cloudflare Turnstile y límite de intentos de login. Genera planillas Excel con un generador .xlsx escrito desde cero e incluye respaldos cifrados con AES-GCM y PBKDF2. Corre completo sobre Cloudflare, sin frameworks ni dependencias npm.
+<h2>Proyectos</h2>
 
-**Stack:** HTML · CSS · JavaScript puro · Cloudflare Pages · Cloudflare Workers · Cloudflare D1 (SQLite) · Cloudflare R2 · Wrangler · Node.js (node --test) · Python + openpyxl · *Repositorio privado*
+<table>
+<tr><td>
 
-#### RADIM – Unificación de sistemas de información minera DRT
-Plataforma que reúne en una sola aplicación los datos de procesos de la división (DRT, SX-EW y lingadas). Consulta en vivo e historial de AVEVA PI System, cálculo de promedios, carga de CSV y exportación a Excel, con gráficos interactivos. Incluye autenticación JWT con roles, contraseñas con bcrypt, bloqueo por intentos fallidos y auditoría. Se usa como aplicación de escritorio mediante pywebview y está preparada para conectarse a Oracle.
+<h3>Sistema de Inventario EPP – DRT</h3>
 
-**Stack:** Python 3.12 · FastAPI · Uvicorn · Pydantic · SQLite · JWT (python-jose) · passlib/bcrypt · PISDK (pywin32) · PIconnect · pandas · openpyxl · HTML/CSS/JS · Chart.js · pywebview · PyInstaller · *Repositorio privado*
+<img src="https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white" alt="PWA"/>
+<img src="https://img.shields.io/badge/En%20producci%C3%B3n-2EA44F?style=flat-square" alt="En producción"/>
 
-#### Puente EAA – Integración de equipos analíticos con SampleManager LIMS
-Aplicación de escritorio para Windows que conecta los equipos de absorción atómica (EAA) con SampleManager LIMS 21.3 sin tocar la base de datos. Lee los archivos de resultados del equipo y las hojas de etiquetas, detecta los lotes, y escribe archivos en una carpeta vigilada que procesa el Parsing Script del LIMS. Cada operación queda en una bitácora con hash SHA-256. Tiene módulos para Pb Cátodos, Soluciones y Orgánicos. Compila a un solo .exe sin dependencias externas, con un paquete de entrega preparado para revisión de ciberseguridad.
+Aplicación web progresiva para controlar el inventario de **elementos de protección personal** del laboratorio.
 
-**Stack:** C# · .NET Framework 4.0 · Windows Forms · GDI+ · csc.exe (sin MSBuild/NuGet) · FileSystemWatcher · SHA-256 · archivos .ini
+- Registra entradas, salidas y stock crítico.
+- Los trabajadores solicitan EPP **escaneando un código QR**.
+- Importa y exporta datos en **Excel**.
+- Online-first, con caché local en IndexedDB para zonas con poca señal.
+- Permisos aplicados en la base de datos con **RLS** para cuatro roles; Edge Functions para usuarios y avisos.
 
-### Experiencia
+<img src="https://skillicons.dev/icons?i=react,vite,js,css,supabase,postgres,deno,vercel" alt="React, Vite, JavaScript, CSS, Supabase, PostgreSQL, Deno, Vercel"/>
+<br/>
+<img src="https://img.shields.io/badge/React%20Router%207-CA4245?style=flat-square&logo=reactrouter&logoColor=white" alt="React Router 7"/>
+<img src="https://img.shields.io/badge/IndexedDB-555555?style=flat-square" alt="IndexedDB"/>
+<img src="https://img.shields.io/badge/Supabase%20Auth%20%2B%20RLS-3ECF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase Auth + RLS"/>
+<img src="https://img.shields.io/badge/SheetJS-217346?style=flat-square" alt="SheetJS"/>
+<img src="https://img.shields.io/badge/QR%20Code-000000?style=flat-square&logo=qrcode&logoColor=white" alt="QR Code"/>
+<img src="https://img.shields.io/badge/ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=white" alt="ESLint"/>
 
-**Encargado Informático LIMS** — SGS
-*Abr. 2025 – actualidad · Calama, Región de Antofagasta, Chile · Presencial*
-- Administración del gestor de muestras SampleManager LIMS del Laboratorio Químico de Codelco División Radomiro Tomic.
-- Integración de equipos analíticos y sistemas informáticos con AVEVA PI System.
-- Administración y consulta de bases de datos Oracle; monitoreo de información crítica para la operación.
-- Creación de reportes y dashboards automatizados en Excel mediante PI DataLink.
+</td></tr>
+</table>
+
+<table>
+<tr><td>
+
+<h3>Asistencia FTE / HH – DRT</h3>
+
+<img src="https://img.shields.io/badge/Repositorio%20privado-6E7781?style=flat-square&logo=github&logoColor=white" alt="Repositorio privado"/>
+
+Sistema web de **control de asistencia** y cálculo de **FTE y horas hombre** por área.
+
+- Login propio con sesiones por token y **cuatro roles** (Admin, ADP, RRHH, Supervisor) con alcance por área.
+- Protección con Cloudflare Turnstile y límite de intentos de login.
+- Planillas Excel con un **generador .xlsx escrito desde cero**.
+- Respaldos cifrados con AES-GCM y PBKDF2.
+- Corre completo sobre **Cloudflare**, sin frameworks ni dependencias npm.
+
+<img src="https://skillicons.dev/icons?i=html,css,js,cloudflare,nodejs,sqlite,py" alt="HTML, CSS, JavaScript, Cloudflare, Node.js, SQLite, Python"/>
+<br/>
+<img src="https://img.shields.io/badge/Workers-F38020?style=flat-square&logo=cloudflareworkers&logoColor=white" alt="Cloudflare Workers"/>
+<img src="https://img.shields.io/badge/Pages-F38020?style=flat-square&logo=cloudflarepages&logoColor=white" alt="Cloudflare Pages"/>
+<img src="https://img.shields.io/badge/D1-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare D1"/>
+<img src="https://img.shields.io/badge/R2-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare R2"/>
+<img src="https://img.shields.io/badge/Wrangler-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Wrangler"/>
+<img src="https://img.shields.io/badge/AES--GCM-555555?style=flat-square" alt="AES-GCM"/>
+<img src="https://img.shields.io/badge/openpyxl-217346?style=flat-square" alt="openpyxl"/>
+
+</td></tr>
+</table>
+
+<table>
+<tr><td>
+
+<h3>RADIM – Unificación de sistemas de información minera</h3>
+
+<img src="https://img.shields.io/badge/Repositorio%20privado-6E7781?style=flat-square&logo=github&logoColor=white" alt="Repositorio privado"/>
+
+Plataforma que reúne en una sola aplicación los **datos de procesos** de la división (DRT, SX-EW y lingadas).
+
+- Consulta en vivo e historial de **AVEVA PI System**, con cálculo de promedios.
+- Carga de CSV, exportación a Excel y **gráficos interactivos**.
+- Autenticación **JWT** con roles, contraseñas con bcrypt, bloqueo por intentos fallidos y auditoría.
+- Funciona como **app de escritorio** con pywebview.
+- Preparada para conectarse a **Oracle**.
+
+<img src="https://skillicons.dev/icons?i=py,fastapi,sqlite,html,css,js" alt="Python, FastAPI, SQLite, HTML, CSS, JavaScript"/>
+<br/>
+<img src="https://img.shields.io/badge/Uvicorn-499848?style=flat-square" alt="Uvicorn"/>
+<img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" alt="Pydantic"/>
+<img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT"/>
+<img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas"/>
+<img src="https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white" alt="Chart.js"/>
+<img src="https://img.shields.io/badge/PI%20SDK%20%C2%B7%20PIconnect-0067B1?style=flat-square" alt="PI SDK · PIconnect"/>
+<img src="https://img.shields.io/badge/pywebview-555555?style=flat-square" alt="pywebview"/>
+<img src="https://img.shields.io/badge/PyInstaller-555555?style=flat-square" alt="PyInstaller"/>
+
+</td></tr>
+</table>
+
+<table>
+<tr><td>
+
+<h3>Puente EAA – Integración de equipos analíticos con LIMS</h3>
+
+<img src="https://img.shields.io/badge/Windows-0078D4?style=flat-square&logo=windows&logoColor=white" alt="Windows"/>
+<img src="https://img.shields.io/badge/Sin%20dependencias-2EA44F?style=flat-square" alt="Sin dependencias"/>
+
+Aplicación de escritorio que conecta los equipos de **absorción atómica (EAA)** con **SampleManager LIMS 21.3**, sin tocar la base de datos.
+
+- Lee los resultados del equipo y las hojas de etiquetas, y **detecta los lotes**.
+- Escribe en una carpeta vigilada que procesa el Parsing Script del LIMS.
+- Cada operación queda en una **bitácora con hash SHA-256**.
+- Módulos para Pb Cátodos, Soluciones y Orgánicos.
+- Compila a **un solo .exe**, con paquete de entrega listo para revisión de ciberseguridad.
+
+<img src="https://skillicons.dev/icons?i=cs,dotnet,windows" alt="C#, .NET, Windows"/>
+<br/>
+<img src="https://img.shields.io/badge/.NET%20Framework%204.0-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET Framework 4.0"/>
+<img src="https://img.shields.io/badge/Windows%20Forms-0078D4?style=flat-square" alt="Windows Forms"/>
+<img src="https://img.shields.io/badge/GDI%2B-555555?style=flat-square" alt="GDI+"/>
+<img src="https://img.shields.io/badge/SHA--256-555555?style=flat-square" alt="SHA-256"/>
+<img src="https://img.shields.io/badge/SampleManager%20LIMS%2021.3-4B5563?style=flat-square" alt="SampleManager LIMS 21.3"/>
+
+</td></tr>
+</table>
+
+<br/>
+
+<h2>Experiencia</h2>
+
+<table>
+<tr><td>
+
+<h3>Encargado Informático LIMS · SGS</h3>
+
+<img src="https://img.shields.io/badge/Abr%202025%20%E2%80%93%20Actualidad-2C5364?style=flat-square" alt="Abr 2025 – Actualidad"/>
+<img src="https://img.shields.io/badge/Calama%2C%20Antofagasta-555555?style=flat-square&logo=googlemaps&logoColor=white" alt="Calama, Antofagasta"/>
+<img src="https://img.shields.io/badge/Presencial-555555?style=flat-square" alt="Presencial"/>
+
+- Administración del gestor de muestras **SampleManager LIMS** del Laboratorio Químico de Codelco División Radomiro Tomic.
+- Integración de equipos analíticos y sistemas informáticos con **AVEVA PI System**.
+- Administración y consulta de bases de datos **Oracle**; monitoreo de información crítica para la operación.
+- Reportes y dashboards automatizados en Excel mediante **PI DataLink**.
 - Desarrollo de software para minería: gestor de inventario, automatización de KPIs e informes automáticos.
-- Soporte técnico general y apoyo a la continuidad de sistemas del laboratorio.
-- Uso de herramientas de IA como Claude Code, Codex, OpenCode y Antigravity.
+- Soporte técnico y continuidad de los sistemas del laboratorio.
+- Uso de herramientas de IA: Claude Code, Codex, OpenCode y Antigravity.
 
-**Soporte TI (Práctica profesional)** — Centro Educacional de Alta Tecnología
-*May. 2023 – jul. 2023 · San Pedro de la Paz, Biobío, Chile · Presencial*
-- Soporte TI y administración de Linux Virtual Server.
+</td></tr>
+<tr><td>
+
+<h3>Soporte TI (Práctica profesional) · Centro Educacional de Alta Tecnología</h3>
+
+<img src="https://img.shields.io/badge/May%202023%20%E2%80%93%20Jul%202023-2C5364?style=flat-square" alt="May 2023 – Jul 2023"/>
+<img src="https://img.shields.io/badge/San%20Pedro%20de%20la%20Paz%2C%20Biob%C3%ADo-555555?style=flat-square&logo=googlemaps&logoColor=white" alt="San Pedro de la Paz, Biobío"/>
+<img src="https://img.shields.io/badge/Presencial-555555?style=flat-square" alt="Presencial"/>
+
+- Soporte TI y administración de **Linux Virtual Server**.
+
+</td></tr>
+</table>
 
 </details>
+
+<!-- ============================== ENGLISH ============================== -->
 
 <details>
 <summary><b>English</b> <sub>(click to expand)</sub></summary>
 
-### About me
+<br/>
 
-Engineer in charge of critical systems in the mining industry, based in Calama, Chile. I manage the LIMS of the Chemical Laboratory at Codelco Radomiro Tomic Division, integrate analytical instruments with AVEVA PI System, and build custom software for operations: inventory, KPIs, reports and automated dashboards.
+<h2>About me</h2>
 
-### Projects
+Engineer in charge of **critical systems in the mining industry**, based in Calama, Chile.
 
-#### PPE Inventory System – DRT
-Progressive web app (PWA) that tracks the laboratory's personal protective equipment inventory. It records stock in and out and critical stock levels, lets workers request PPE by scanning a QR code, and imports and exports Excel data. It is online-first but keeps a local IndexedDB cache for areas with poor signal. Permissions are enforced in the database with RLS and SECURITY DEFINER functions for four roles, and Edge Functions handle user management and request notifications.
+I manage the **LIMS** of the Chemical Laboratory at Codelco Radomiro Tomic Division, integrate analytical instruments with **AVEVA PI System**, and build **custom software** for operations: inventory, KPIs, reports and automated dashboards.
 
-**Stack:** React 19 · React Router 7 · Vite 8 · JavaScript · custom CSS/SVG · Service Worker · IndexedDB (idb) · Supabase (Postgres, Auth, RLS, Deno Edge Functions) · SheetJS · qrcode · Vercel · ESLint
+<br/>
 
-#### FTE / Man-Hours Attendance – DRT
-Web system for attendance tracking and FTE and man-hour calculation by area. It has its own login with token sessions, four roles (Admin, ADP, HR, Supervisor) scoped by area, Cloudflare Turnstile and login rate limiting. It produces Excel sheets with an .xlsx generator written from scratch and includes backups encrypted with AES-GCM and PBKDF2. It runs entirely on Cloudflare, with no frameworks or npm dependencies.
+<h2>Projects</h2>
 
-**Stack:** HTML · CSS · vanilla JavaScript · Cloudflare Pages · Cloudflare Workers · Cloudflare D1 (SQLite) · Cloudflare R2 · Wrangler · Node.js (node --test) · Python + openpyxl · *Private repository*
+<table>
+<tr><td>
 
-#### RADIM – Mining information systems unification, DRT
-Platform that brings the division's process data (DRT, SX-EW and copper bundles) into a single application. It provides live and historical AVEVA PI System queries, averages, CSV upload and Excel export, with interactive charts. It includes JWT authentication with roles, bcrypt passwords, lockout after failed attempts and an audit log. It runs as a desktop app through pywebview and is ready to connect to Oracle.
+<h3>PPE Inventory System – DRT</h3>
 
-**Stack:** Python 3.12 · FastAPI · Uvicorn · Pydantic · SQLite · JWT (python-jose) · passlib/bcrypt · PISDK (pywin32) · PIconnect · pandas · openpyxl · HTML/CSS/JS · Chart.js · pywebview · PyInstaller · *Private repository*
+<img src="https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white" alt="PWA"/>
+<img src="https://img.shields.io/badge/In%20production-2EA44F?style=flat-square" alt="In production"/>
 
-#### EAA Bridge – Analytical instrument integration with SampleManager LIMS
-Windows desktop app that connects atomic absorption (AAS) instruments to SampleManager LIMS 21.3 without touching the database. It reads the instrument's result files and label sheets, detects batches, and writes files to a watched folder that the LIMS Parsing Script processes. Every operation is logged with a SHA-256 hash. It has modules for Pb Cathodes, Solutions and Organics. It compiles to a single .exe with no external dependencies, plus a delivery package prepared for cybersecurity review.
+Progressive web app that tracks the laboratory's **personal protective equipment** inventory.
 
-**Stack:** C# · .NET Framework 4.0 · Windows Forms · GDI+ · csc.exe (no MSBuild/NuGet) · FileSystemWatcher · SHA-256 · .ini files
+- Records stock in, stock out and critical stock levels.
+- Workers request PPE by **scanning a QR code**.
+- Imports and exports **Excel** data.
+- Online-first, with a local IndexedDB cache for areas with poor signal.
+- Permissions enforced in the database with **RLS** for four roles; Edge Functions for users and notifications.
 
-### Experience
+<img src="https://skillicons.dev/icons?i=react,vite,js,css,supabase,postgres,deno,vercel" alt="React, Vite, JavaScript, CSS, Supabase, PostgreSQL, Deno, Vercel"/>
+<br/>
+<img src="https://img.shields.io/badge/React%20Router%207-CA4245?style=flat-square&logo=reactrouter&logoColor=white" alt="React Router 7"/>
+<img src="https://img.shields.io/badge/IndexedDB-555555?style=flat-square" alt="IndexedDB"/>
+<img src="https://img.shields.io/badge/Supabase%20Auth%20%2B%20RLS-3ECF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase Auth + RLS"/>
+<img src="https://img.shields.io/badge/SheetJS-217346?style=flat-square" alt="SheetJS"/>
+<img src="https://img.shields.io/badge/QR%20Code-000000?style=flat-square&logo=qrcode&logoColor=white" alt="QR Code"/>
+<img src="https://img.shields.io/badge/ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=white" alt="ESLint"/>
 
-**LIMS IT Lead** — SGS
-*Apr 2025 – present · Calama, Antofagasta Region, Chile · On-site*
-- Administration of the SampleManager LIMS at the Chemical Laboratory of Codelco Radomiro Tomic Division.
-- Integration of analytical instruments and IT systems with AVEVA PI System.
-- Oracle database administration and querying; monitoring of operation-critical data.
-- Automated Excel reports and dashboards with PI DataLink.
+</td></tr>
+</table>
+
+<table>
+<tr><td>
+
+<h3>FTE / Man-Hours Attendance – DRT</h3>
+
+<img src="https://img.shields.io/badge/Private%20repository-6E7781?style=flat-square&logo=github&logoColor=white" alt="Private repository"/>
+
+Web system for **attendance tracking** and **FTE and man-hour** calculation by area.
+
+- Own login with token sessions and **four roles** (Admin, ADP, HR, Supervisor) scoped by area.
+- Cloudflare Turnstile protection and login rate limiting.
+- Excel sheets produced by an **.xlsx generator written from scratch**.
+- Backups encrypted with AES-GCM and PBKDF2.
+- Runs entirely on **Cloudflare**, with no frameworks or npm dependencies.
+
+<img src="https://skillicons.dev/icons?i=html,css,js,cloudflare,nodejs,sqlite,py" alt="HTML, CSS, JavaScript, Cloudflare, Node.js, SQLite, Python"/>
+<br/>
+<img src="https://img.shields.io/badge/Workers-F38020?style=flat-square&logo=cloudflareworkers&logoColor=white" alt="Cloudflare Workers"/>
+<img src="https://img.shields.io/badge/Pages-F38020?style=flat-square&logo=cloudflarepages&logoColor=white" alt="Cloudflare Pages"/>
+<img src="https://img.shields.io/badge/D1-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare D1"/>
+<img src="https://img.shields.io/badge/R2-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare R2"/>
+<img src="https://img.shields.io/badge/Wrangler-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Wrangler"/>
+<img src="https://img.shields.io/badge/AES--GCM-555555?style=flat-square" alt="AES-GCM"/>
+<img src="https://img.shields.io/badge/openpyxl-217346?style=flat-square" alt="openpyxl"/>
+
+</td></tr>
+</table>
+
+<table>
+<tr><td>
+
+<h3>RADIM – Mining information systems unification</h3>
+
+<img src="https://img.shields.io/badge/Private%20repository-6E7781?style=flat-square&logo=github&logoColor=white" alt="Private repository"/>
+
+Platform that brings the division's **process data** (DRT, SX-EW and copper bundles) into a single application.
+
+- Live and historical **AVEVA PI System** queries, with averages.
+- CSV upload, Excel export and **interactive charts**.
+- **JWT** authentication with roles, bcrypt passwords, lockout after failed attempts and an audit log.
+- Runs as a **desktop app** through pywebview.
+- Ready to connect to **Oracle**.
+
+<img src="https://skillicons.dev/icons?i=py,fastapi,sqlite,html,css,js" alt="Python, FastAPI, SQLite, HTML, CSS, JavaScript"/>
+<br/>
+<img src="https://img.shields.io/badge/Uvicorn-499848?style=flat-square" alt="Uvicorn"/>
+<img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" alt="Pydantic"/>
+<img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT"/>
+<img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas"/>
+<img src="https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white" alt="Chart.js"/>
+<img src="https://img.shields.io/badge/PI%20SDK%20%C2%B7%20PIconnect-0067B1?style=flat-square" alt="PI SDK · PIconnect"/>
+<img src="https://img.shields.io/badge/pywebview-555555?style=flat-square" alt="pywebview"/>
+<img src="https://img.shields.io/badge/PyInstaller-555555?style=flat-square" alt="PyInstaller"/>
+
+</td></tr>
+</table>
+
+<table>
+<tr><td>
+
+<h3>EAA Bridge – Analytical instrument integration with LIMS</h3>
+
+<img src="https://img.shields.io/badge/Windows-0078D4?style=flat-square&logo=windows&logoColor=white" alt="Windows"/>
+<img src="https://img.shields.io/badge/No%20dependencies-2EA44F?style=flat-square" alt="No dependencies"/>
+
+Desktop app that connects **atomic absorption (AAS)** instruments to **SampleManager LIMS 21.3**, without touching the database.
+
+- Reads the instrument's results and label sheets, and **detects batches**.
+- Writes to a watched folder processed by the LIMS Parsing Script.
+- Every operation is logged with a **SHA-256 hash**.
+- Modules for Pb Cathodes, Solutions and Organics.
+- Compiles to **a single .exe**, with a delivery package ready for cybersecurity review.
+
+<img src="https://skillicons.dev/icons?i=cs,dotnet,windows" alt="C#, .NET, Windows"/>
+<br/>
+<img src="https://img.shields.io/badge/.NET%20Framework%204.0-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET Framework 4.0"/>
+<img src="https://img.shields.io/badge/Windows%20Forms-0078D4?style=flat-square" alt="Windows Forms"/>
+<img src="https://img.shields.io/badge/GDI%2B-555555?style=flat-square" alt="GDI+"/>
+<img src="https://img.shields.io/badge/SHA--256-555555?style=flat-square" alt="SHA-256"/>
+<img src="https://img.shields.io/badge/SampleManager%20LIMS%2021.3-4B5563?style=flat-square" alt="SampleManager LIMS 21.3"/>
+
+</td></tr>
+</table>
+
+<br/>
+
+<h2>Experience</h2>
+
+<table>
+<tr><td>
+
+<h3>LIMS IT Lead · SGS</h3>
+
+<img src="https://img.shields.io/badge/Apr%202025%20%E2%80%93%20Present-2C5364?style=flat-square" alt="Apr 2025 – Present"/>
+<img src="https://img.shields.io/badge/Calama%2C%20Antofagasta-555555?style=flat-square&logo=googlemaps&logoColor=white" alt="Calama, Antofagasta"/>
+<img src="https://img.shields.io/badge/On--site-555555?style=flat-square" alt="On-site"/>
+
+- Administration of the **SampleManager LIMS** at the Chemical Laboratory of Codelco Radomiro Tomic Division.
+- Integration of analytical instruments and IT systems with **AVEVA PI System**.
+- **Oracle** database administration and querying; monitoring of operation-critical data.
+- Automated Excel reports and dashboards with **PI DataLink**.
 - Software development for mining: inventory manager, KPI automation and automated reports.
-- General technical support and continuity of laboratory systems.
-- Use of AI tools such as Claude Code, Codex, OpenCode and Antigravity.
+- Technical support and continuity of laboratory systems.
+- Use of AI tools: Claude Code, Codex, OpenCode and Antigravity.
 
-**IT Support (Internship)** — Centro Educacional de Alta Tecnología
-*May 2023 – Jul 2023 · San Pedro de la Paz, Biobío, Chile · On-site*
-- IT support and Linux Virtual Server administration.
+</td></tr>
+<tr><td>
+
+<h3>IT Support (Internship) · Centro Educacional de Alta Tecnología</h3>
+
+<img src="https://img.shields.io/badge/May%202023%20%E2%80%93%20Jul%202023-2C5364?style=flat-square" alt="May 2023 – Jul 2023"/>
+<img src="https://img.shields.io/badge/San%20Pedro%20de%20la%20Paz%2C%20Biob%C3%ADo-555555?style=flat-square&logo=googlemaps&logoColor=white" alt="San Pedro de la Paz, Biobío"/>
+<img src="https://img.shields.io/badge/On--site-555555?style=flat-square" alt="On-site"/>
+
+- IT support and **Linux Virtual Server** administration.
+
+</td></tr>
+</table>
 
 </details>
 
----
+<br/>
 
-### Lenguajes y herramientas · Languages & Tools
-
-<p>
-  <img src="https://skillicons.dev/icons?i=py,cs,dotnet,js,ts,html,css,powershell" alt="Lenguajes"/><br/>
-  <img src="https://skillicons.dev/icons?i=react,vite,nextjs,tailwind,nodejs,fastapi,deno,electron" alt="Frameworks"/><br/>
-  <img src="https://skillicons.dev/icons?i=sqlite,postgres,supabase,cloudflare,vercel,git,github,vscode" alt="Datos / Infra"/>
-</p>
-<p>
-  <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle"/>
-  <img src="https://img.shields.io/badge/AVEVA%20PI%20System-0067B1?style=for-the-badge" alt="AVEVA PI System"/>
-  <img src="https://img.shields.io/badge/SampleManager%20LIMS-4B5563?style=for-the-badge" alt="SampleManager LIMS"/>
-  <img src="https://img.shields.io/badge/Excel%20%2F%20PI%20DataLink-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Excel / PI DataLink"/>
-  <img src="https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white" alt="Chart.js"/>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
-</p>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=110&section=footer" alt=""/>
