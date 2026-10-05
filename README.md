@@ -164,10 +164,12 @@ Plataforma que reúne en una sola aplicación los **datos de procesos** de la di
 
 Tres aplicaciones de escritorio que conectan equipos analíticos del laboratorio con **SampleManager LIMS 21.3**, sin modificar el software de los equipos ni la base de datos del LIMS.
 
-</td></tr>
+<b>Incluye 3 integraciones:</b> 1. Puente EAA · 2. APT Bridge · 3. Azufre Watcher
+
+<table>
 <tr><td>
 
-<h4>Puente EAA – Equipos de absorción atómica</h4>
+<h4>1 · Puente EAA – Equipos de absorción atómica</h4>
 
 <picture><img src="https://img.shields.io/badge/En%20producci%C3%B3n-2EA44F?style=flat-square" alt="En producción"/></picture>
 
@@ -189,7 +191,7 @@ Conecta los equipos de **absorción atómica (EAA)** con el LIMS.
 </td></tr>
 <tr><td>
 
-<h4>APT Bridge – Titulador Hanon APT960</h4>
+<h4>2 · APT Bridge – Titulador Hanon APT960</h4>
 
 <picture><img src="https://img.shields.io/badge/En%20producci%C3%B3n-2EA44F?style=flat-square" alt="En producción"/></picture>
 
@@ -213,7 +215,7 @@ Conecta el **titulador potenciométrico Hanon APT960** con el LIMS sin modificar
 </td></tr>
 <tr><td>
 
-<h4>Azufre Watcher – Analizador de azufre LECO</h4>
+<h4>3 · Azufre Watcher – Analizador de azufre LECO</h4>
 
 <picture><img src="https://img.shields.io/badge/En%20producci%C3%B3n-2EA44F?style=flat-square" alt="En producción"/></picture>
 
@@ -232,6 +234,9 @@ Vigila los reportes .csv del **analizador LECO** y los deja listos para el LIMS,
 <picture><img src="https://img.shields.io/badge/csc.exe%20in--box-555555?style=flat-square" alt="csc.exe in-box"/></picture>
 <picture><img src="https://img.shields.io/badge/INI-555555?style=flat-square" alt="INI"/></picture>
 <picture><img src="https://img.shields.io/badge/SHA--256-555555?style=flat-square" alt="SHA-256"/></picture>
+
+</td></tr>
+</table>
 
 </td></tr>
 </table>
@@ -410,10 +415,12 @@ Platform that brings the division's **process data** (DRT, SX-EW and copper bund
 
 Three desktop apps that connect laboratory analytical instruments to **SampleManager LIMS 21.3**, without modifying the instruments' software or the LIMS database.
 
-</td></tr>
+<b>Includes 3 integrations:</b> 1. EAA Bridge · 2. APT Bridge · 3. Sulfur Watcher
+
+<table>
 <tr><td>
 
-<h4>EAA Bridge – Atomic absorption instruments</h4>
+<h4>1 · EAA Bridge – Atomic absorption instruments</h4>
 
 <picture><img src="https://img.shields.io/badge/In%20production-2EA44F?style=flat-square" alt="In production"/></picture>
 
@@ -435,7 +442,7 @@ Connects **atomic absorption (AAS)** instruments to the LIMS.
 </td></tr>
 <tr><td>
 
-<h4>APT Bridge – Hanon APT960 titrator</h4>
+<h4>2 · APT Bridge – Hanon APT960 titrator</h4>
 
 <picture><img src="https://img.shields.io/badge/In%20production-2EA44F?style=flat-square" alt="In production"/></picture>
 
@@ -459,7 +466,7 @@ Connects the **Hanon APT960 potentiometric titrator** to the LIMS without modify
 </td></tr>
 <tr><td>
 
-<h4>Sulfur Watcher – LECO sulfur analyzer</h4>
+<h4>3 · Sulfur Watcher – LECO sulfur analyzer</h4>
 
 <picture><img src="https://img.shields.io/badge/In%20production-2EA44F?style=flat-square" alt="In production"/></picture>
 
@@ -478,6 +485,9 @@ Watches the **LECO analyzer** .csv reports and prepares them for the LIMS, which
 <picture><img src="https://img.shields.io/badge/csc.exe%20in--box-555555?style=flat-square" alt="csc.exe in-box"/></picture>
 <picture><img src="https://img.shields.io/badge/INI-555555?style=flat-square" alt="INI"/></picture>
 <picture><img src="https://img.shields.io/badge/SHA--256-555555?style=flat-square" alt="SHA-256"/></picture>
+
+</td></tr>
+</table>
 
 </td></tr>
 </table>
