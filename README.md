@@ -76,17 +76,17 @@ Administro el **LIMS** del Laboratorio Químico de Codelco División Radomiro To
 <table>
 <tr><td>
 
-<h3>Sistema de Inventario EPP – DRT</h3>
+<h3>Inventario EPP DRT</h3>
 
 <picture><img src="https://img.shields.io/badge/En%20producci%C3%B3n-2EA44F?style=flat-square" alt="En producción"/></picture>
 
-Aplicación web progresiva para controlar el inventario de **elementos de protección personal** del laboratorio.
+Sistema de inventario de EPP para **SGS Minerals S.A.** en la División Radomiro Tomic (DRT). Cubre todo lo esencial: registro y trazabilidad de artículos, gestión de entradas y salidas, y control exacto de cantidades.
 
-- Registra entradas, salidas y stock crítico.
-- Los trabajadores solicitan EPP **escaneando un código QR**.
-- Importa y exporta datos en **Excel**.
-- Online-first, con caché local en IndexedDB para zonas con poca señal.
-- Permisos aplicados en la base de datos con **RLS** para cuatro roles; Edge Functions para usuarios y avisos.
+Funciona en la nube desde tres dispositivos: una **tablet** para la entrega de EPP, un **computador** para las tareas administrativas y de supervisión, y el **celular**, donde cualquier usuario escanea un **código QR** y hace su pedido en línea viendo el artículo y su stock actual.
+
+- Desplegado en **Supabase** y **Vercel**.
+- **Online-first**, con caché local en IndexedDB para zonas con poca señal.
+- **Informes mensuales** y exportación a Excel de inventario, registros e historial.
 
 <picture><img src="https://skillicons.dev/icons?i=react,vite,js,css,supabase,postgres,deno,vercel" alt="React, Vite, JavaScript, CSS, Supabase, PostgreSQL, Deno, Vercel"/></picture>
 <br/>
@@ -103,17 +103,17 @@ Aplicación web progresiva para controlar el inventario de **elementos de protec
 <table>
 <tr><td>
 
-<h3>Asistencia FTE / HH – DRT</h3>
+<h3>Asistencia FTE SGS DRT</h3>
 
 <picture><img src="https://img.shields.io/badge/En%20producci%C3%B3n-2EA44F?style=flat-square" alt="En producción"/></picture>
 
-Sistema web de **control de asistencia** y cálculo de **FTE y horas hombre** por área.
+Aplicación web de registro y control de asistencia con cálculo automático del **FTE** (Full Time Equivalent), que mide la dotación efectiva según la jornada de trabajo.
 
-- Login propio con sesiones por token y **cuatro roles** (Admin, ADP, RRHH, Supervisor) con alcance por área.
-- Protección con Cloudflare Turnstile y límite de intentos de login.
-- Planillas Excel con un **generador .xlsx escrito desde cero**.
-- Respaldos cifrados con AES-GCM y PBKDF2.
-- Corre completo sobre **Cloudflare**, sin frameworks ni dependencias npm.
+Cada supervisor declara desde su propio panel la asistencia del turno a su cargo. Con esas declaraciones se construye una **matriz de asistencia** en línea para Recursos Humanos y el administrador de contrato, y a partir de ella se generan **informes con KPIs** que llegan al cliente final de forma automática.
+
+- Desplegado completamente en **Cloudflare**, sin frameworks ni dependencias npm.
+- Protección con **Cloudflare Turnstile** y límite de intentos (rate limit).
+- Genera informes en **PDF** y **Excel (.xlsx)**.
 
 <picture><img src="https://skillicons.dev/icons?i=html,css,js,cloudflare,nodejs,sqlite,py" alt="HTML, CSS, JavaScript, Cloudflare, Node.js, SQLite, Python"/></picture>
 <br/>
@@ -122,6 +122,7 @@ Sistema web de **control de asistencia** y cálculo de **FTE y horas hombre** po
 <picture><img src="https://img.shields.io/badge/D1-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare D1"/></picture>
 <picture><img src="https://img.shields.io/badge/R2-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare R2"/></picture>
 <picture><img src="https://img.shields.io/badge/Wrangler-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Wrangler"/></picture>
+<picture><img src="https://img.shields.io/badge/Turnstile-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Turnstile"/></picture>
 <picture><img src="https://img.shields.io/badge/AES--GCM-555555?style=flat-square" alt="AES-GCM"/></picture>
 <picture><img src="https://img.shields.io/badge/openpyxl-217346?style=flat-square" alt="openpyxl"/></picture>
 
@@ -133,20 +134,20 @@ Sistema web de **control de asistencia** y cálculo de **FTE y horas hombre** po
 
 <h3>RADIM – Unificación de sistemas de información minera</h3>
 
-<picture><img src="https://img.shields.io/badge/En%20producci%C3%B3n-2EA44F?style=flat-square" alt="En producción"/></picture>
+<picture><img src="https://img.shields.io/badge/MVP-D97706?style=flat-square" alt="MVP"/></picture>
 
-Plataforma que reúne en una sola aplicación los **datos de procesos** de la división (DRT, SX-EW y lingadas).
+Plataforma conectada a los sistemas informáticos mineros (**AVEVA PI System** y la base de datos del **LIMS**) que reúne la información crítica en un solo lugar para cruzarla en vivo y construir **informes de KPIs automatizados**.
 
-- Consulta en vivo e historial de **AVEVA PI System**, con cálculo de promedios.
-- Carga de CSV, exportación a Excel y **gráficos interactivos**.
-- Autenticación **JWT** con roles, contraseñas con bcrypt, bloqueo por intentos fallidos y auditoría.
-- Funciona como **app de escritorio** con pywebview.
-- Preparada para conectarse a **Oracle**.
+- Consulta directa y eficiente de los datos.
+- Exportación de informes en **PDF** y extracción de datos a **Excel**.
+- Autenticación directa con la cuenta corporativa de Codelco (**Active Directory**).
+- Aplicación de escritorio.
 
 <picture><img src="https://skillicons.dev/icons?i=py,fastapi,sqlite,html,css,js" alt="Python, FastAPI, SQLite, HTML, CSS, JavaScript"/></picture>
 <br/>
 <picture><img src="https://img.shields.io/badge/Uvicorn-499848?style=flat-square" alt="Uvicorn"/></picture>
 <picture><img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" alt="Pydantic"/></picture>
+<picture><img src="https://img.shields.io/badge/Active%20Directory-0078D4?style=flat-square" alt="Active Directory"/></picture>
 <picture><img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT"/></picture>
 <picture><img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas"/></picture>
 <picture><img src="https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white" alt="Chart.js"/></picture>
@@ -162,24 +163,23 @@ Plataforma que reúne en una sola aplicación los **datos de procesos** de la di
 
 <h3>Integración equipos LIMS</h3>
 
-Tres aplicaciones de escritorio que conectan equipos analíticos del laboratorio con **SampleManager LIMS 21.3**, sin modificar el software de los equipos ni la base de datos del LIMS.
+Aplicaciones que funcionan como **puente** entre los equipos analíticos y **SampleManager LIMS 21.3** de la división, adaptadas a su configuración. Reciben los datos *raw* del equipo y los transforman al formato que el parser del LIMS puede interpretar.
 
 <b>Incluye 3 integraciones:</b> 1. Puente EAA · 2. APT Bridge · 3. Azufre Watcher
 
 <table>
 <tr><td>
 
-<h4>1 · Puente EAA – Equipos de absorción atómica</h4>
+<h4>1 · Puente EAA – Absorción atómica Agilent SpectrAA</h4>
 
 <picture><img src="https://img.shields.io/badge/En%20producci%C3%B3n-2EA44F?style=flat-square" alt="En producción"/></picture>
 
-Conecta los equipos de **absorción atómica (EAA)** con el LIMS.
+Puente entre el equipo de **absorción atómica (EAA) Agilent SpectrAA** y el LIMS.
 
-- Lee los resultados del equipo y las hojas de etiquetas, y **detecta los lotes**.
-- Escribe en una carpeta vigilada que procesa el Parsing Script del LIMS.
-- Cada operación queda en una **bitácora con hash SHA-256**.
-- Módulos para Pb Cátodos, Soluciones y Orgánicos.
-- Compila a **un solo .exe**, con paquete de entrega listo para revisión de ciberseguridad.
+- Carga el encabezado generado por el LIMS como etiqueta **.lbl**, con el sample point, el ID de la muestra y la réplica (formato `SP@ID/REP`).
+- **Watcher** que revisa cada 5 segundos y detecta cuándo el equipo terminó la lectura.
+- Cubre Soluciones, Sólidos, Orgánicos y Pb en cátodos.
+- Programa liviano y portable: un solo **.exe** ya compilado.
 
 <picture><img src="https://skillicons.dev/icons?i=cs,dotnet,windows" alt="C#, .NET, Windows"/></picture>
 <br/>
@@ -195,13 +195,12 @@ Conecta los equipos de **absorción atómica (EAA)** con el LIMS.
 
 <picture><img src="https://img.shields.io/badge/En%20producci%C3%B3n-2EA44F?style=flat-square" alt="En producción"/></picture>
 
-Conecta el **titulador potenciométrico Hanon APT960** con el LIMS sin modificar el software ni las bases de datos del equipo.
+Puente entre el **titulador potenciométrico Hanon APT960** y el LIMS.
 
-- Lee el encabezado .lbl del LIMS y carga la batería en el equipo mediante **automatización Win32**, verificando cada fila escrita.
-- Monitorea Export.mdb en solo lectura y muestra cada resultado apenas el equipo lo termina.
-- Publica la salida para el LIMS de forma **atómica**, solo con la batería completa y sin ambigüedades.
-- Diseño **fail-closed**: nunca inicia la titulación y detiene la carga ante cualquier discrepancia.
-- Perfiles por equipo (Acidez, Cl potenciométrico, pH) y **un solo .exe portable** con hash SHA-256.
+- Carga el encabezado generado por el LIMS como etiqueta **.lbl**.
+- Automatiza la carga de la batería en el equipo mediante **Win32**.
+- **Watcher** que monitorea los datos en tiempo real.
+- Muestra cada resultado apenas se lee; el software del equipo solo permite revisarlos cuando termina la batería completa.
 
 <picture><img src="https://skillicons.dev/icons?i=py,qt,windows,powershell" alt="Python, Qt, Windows, PowerShell"/></picture>
 <br/>
@@ -215,17 +214,14 @@ Conecta el **titulador potenciométrico Hanon APT960** con el LIMS sin modificar
 </td></tr>
 <tr><td>
 
-<h4>3 · Azufre Watcher – Analizador de azufre LECO</h4>
+<h4>3 · Azufre Watcher – LECO CS844</h4>
 
 <picture><img src="https://img.shields.io/badge/En%20producci%C3%B3n-2EA44F?style=flat-square" alt="En producción"/></picture>
 
-Vigila los reportes .csv del **analizador LECO** y los deja listos para el LIMS, que solo acepta muestras con exactamente 3 réplicas.
+Puente entre el **analizador de azufre LECO CS844** y el LIMS, que funciona principalmente como *watcher*.
 
-- Si un reporte trae 4 a 6 réplicas, **conserva las 3 más concordantes**, descartando una a una las más alejadas de la mediana.
-- Edita el archivo **a nivel de bytes**: formato, codificación y encabezado salen idénticos al original del equipo.
-- Publica de forma **atómica** (.tmp + rename), sin sobrescribir y solo cuando el archivo de origen terminó de escribirse.
-- Validación opcional de concordancia por rango y RSD: retiene la muestra y exige una decisión del operador.
-- Trazabilidad completa en bitácora, **LED de estado** visible a distancia y un solo .exe portable con hash SHA-256.
+- Recibe el formato de los cátodos de RT (**LOTE + BG**).
+- Comprueba las réplicas leídas: si hay más de 3, calcula cuáles conservar y **siempre traspasa 3** al LIMS.
 
 <picture><img src="https://skillicons.dev/icons?i=cs,dotnet,windows,powershell" alt="C#, .NET, Windows, PowerShell"/></picture>
 <br/>
@@ -244,22 +240,21 @@ Vigila los reportes .csv del **analizador LECO** y los deja listos para el LIMS,
 <table>
 <tr><td>
 
-<h3>Asistente documental RAG – SampleManager LIMS 21.3</h3>
+<h3>Asistente documental RAG para SampleManager LIMS 21.3</h3>
 
-<picture><img src="https://img.shields.io/badge/En%20producci%C3%B3n-2EA44F?style=flat-square" alt="En producción"/></picture>
+<picture><img src="https://img.shields.io/badge/MVP-D97706?style=flat-square" alt="MVP"/></picture>
+<picture><img src="https://img.shields.io/badge/Uso%20personal-6E7781?style=flat-square" alt="Uso personal"/></picture>
 
 Motor de búsqueda con **recuperación aumentada (RAG)** sobre toda la documentación técnica de **SampleManager LIMS 21.3**, consultable por agentes de IA mediante **MCP**.
 
-- Indexa **48.067 documentos** (HTML, PDF, CHM y C#) en **92.500 fragmentos**.
 - **Búsqueda híbrida**: BM25 por palabras y embeddings por significado, combinados con Reciprocal Rank Fusion.
-- Cada respuesta cita **ruta, sección, módulo y página** del documento original.
-- Pregunta en español sobre documentación en inglés, con expansión de términos.
-- Servidor **MCP** para Claude Code, además de interfaz web, API y CLI.
-- Todo corre en el equipo: SQLite y NumPy, con LLM local opcional en **Ollama**.
+- Servidor **MCP** para Claude.
+- Integrado con **Ollama** y el modelo local **Qwen3:14B**.
 
 <picture><img src="https://skillicons.dev/icons?i=py,sqlite,fastapi,powershell" alt="Python, SQLite, FastAPI, PowerShell"/></picture>
 <br/>
 <picture><img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama"/></picture>
+<picture><img src="https://img.shields.io/badge/Qwen3%3A14B-615CED?style=flat-square" alt="Qwen3:14B"/></picture>
 <picture><img src="https://img.shields.io/badge/MCP-000000?style=flat-square&logo=modelcontextprotocol&logoColor=white" alt="MCP"/></picture>
 <picture><img src="https://img.shields.io/badge/SQLite%20FTS5-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite FTS5"/></picture>
 <picture><img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy"/></picture>
@@ -273,16 +268,15 @@ Motor de búsqueda con **recuperación aumentada (RAG)** sobre toda la documenta
 <table>
 <tr><td>
 
-<h3>Sistema de ingreso de datos Lingada Cátodos – SGS Minerals S.A.</h3>
+<h3>Sistema de ingreso de datos Lingada Cátodos</h3>
 
 <picture><img src="https://img.shields.io/badge/En%20producci%C3%B3n-2EA44F?style=flat-square" alt="En producción"/></picture>
 
-Aplicación de escritorio para registrar fallas o **no-conformidades** de la inspección física de cátodos.
+Aplicación de escritorio con base de datos local para registrar las fallas físicas detectadas en la **inspección de cátodos**, es decir, las no conformidades que se informan al cliente final.
 
-- Registro de las no-conformidades detectadas en la **inspección física de cátodos**.
-- **Dashboard** consultable por fechas, ítems y banco-grupos.
-- Envío de **correos automáticos**.
-- Generación de **informes en PDF**.
+- **Dashboard** integrado con la información en tiempo real.
+- **Correo automático** al terminar el ingreso de datos, más un informe diario con los últimos 7 días.
+- Informes en **PDF** con los KPIs críticos.
 
 <picture><img src="https://skillicons.dev/icons?i=electron,js,nodejs" alt="Electron, JavaScript, Node.js"/></picture>
 <br/>
@@ -297,19 +291,19 @@ Aplicación de escritorio para registrar fallas o **no-conformidades** de la ins
 <table>
 <tr><td>
 
-<h3>Pareto de Fallas TMM – Análisis de fallas de equipos</h3>
+<h3>Pareto de Fallas TMM</h3>
 
 <picture><img src="https://img.shields.io/badge/En%20producci%C3%B3n-2EA44F?style=flat-square" alt="En producción"/></picture>
 
-App de escritorio que reemplaza el Excel de registro de fallas TMM (DRT) y genera **análisis de confiabilidad** por equipo y componente.
+App de escritorio para registrar las fallas de la **torre de muestreo**.
 
-- Registro de fallas por turno (A/B) y drill-down **Pareto 80/20**: equipo → componente → observación → datos.
-- Análisis **Jack-knife** (MTTR / N° fallas), matriz de decisión, histórico de horas y comparativa mensual.
-- Importa el Excel legado y matrices diarias; exporta a Excel, CSV, PNG y PDF, con **lector/escritor OOXML propio**.
-- **Informe diario automático** en PDF enviado por Gmail (OAuth2 y API REST implementados a mano).
-- **Sincronización multi-PC** por carpeta compartida SMB: un archivo por PC, fusión last-writer-wins, lock y auto-reparación de ACL.
-- Login con roles (Admin/Operador), contraseñas PBKDF2-SHA256 y bloqueo por intentos fallidos.
-- **Un solo .exe** sin instalador, sin admin y sin dependencias de terceros.
+- Registro de fallas por equipo y componente, con su duración en horas.
+- Gráficos **Pareto 80/20** construidos automáticamente.
+- Análisis **Jack-knife**.
+- Comparativa mensual.
+- **Correo automático** mediante la API de Google.
+- Sincronización a través de la red interna de Codelco.
+- Ejecutable portable y liviano.
 
 <picture><img src="https://skillicons.dev/icons?i=cs,dotnet,windows" alt="C#, .NET, Windows"/></picture>
 <br/>
@@ -423,17 +417,17 @@ I manage the **LIMS** of the Chemical Laboratory at Codelco Radomiro Tomic Divis
 <table>
 <tr><td>
 
-<h3>PPE Inventory System – DRT</h3>
+<h3>PPE Inventory DRT</h3>
 
 <picture><img src="https://img.shields.io/badge/In%20production-2EA44F?style=flat-square" alt="In production"/></picture>
 
-Progressive web app that tracks the laboratory's **personal protective equipment** inventory.
+PPE inventory system for **SGS Minerals S.A.** at Codelco Radomiro Tomic Division (DRT). It covers the essentials: item registration and tracking, stock-in and stock-out management, and exact quantity control.
 
-- Records stock in, stock out and critical stock levels.
-- Workers request PPE by **scanning a QR code**.
-- Imports and exports **Excel** data.
-- Online-first, with a local IndexedDB cache for areas with poor signal.
-- Permissions enforced in the database with **RLS** for four roles; Edge Functions for users and notifications.
+It runs in the cloud on three devices: a **tablet** for handing out PPE, a **computer** for administrative and supervisory tasks, and a **phone**, where any user scans a **QR code** and places an order online, seeing the item and its current stock.
+
+- Deployed on **Supabase** and **Vercel**.
+- **Online-first**, with a local IndexedDB cache for areas with poor signal.
+- **Monthly reports** and Excel export of inventory, records and history.
 
 <picture><img src="https://skillicons.dev/icons?i=react,vite,js,css,supabase,postgres,deno,vercel" alt="React, Vite, JavaScript, CSS, Supabase, PostgreSQL, Deno, Vercel"/></picture>
 <br/>
@@ -450,17 +444,17 @@ Progressive web app that tracks the laboratory's **personal protective equipment
 <table>
 <tr><td>
 
-<h3>FTE / Man-Hours Attendance – DRT</h3>
+<h3>FTE Attendance SGS DRT</h3>
 
 <picture><img src="https://img.shields.io/badge/In%20production-2EA44F?style=flat-square" alt="In production"/></picture>
 
-Web system for **attendance tracking** and **FTE and man-hour** calculation by area.
+Web app for attendance tracking with automatic **FTE** (Full Time Equivalent) calculation, which measures effective headcount based on working hours.
 
-- Own login with token sessions and **four roles** (Admin, ADP, HR, Supervisor) scoped by area.
-- Cloudflare Turnstile protection and login rate limiting.
-- Excel sheets produced by an **.xlsx generator written from scratch**.
-- Backups encrypted with AES-GCM and PBKDF2.
-- Runs entirely on **Cloudflare**, with no frameworks or npm dependencies.
+Each supervisor reports the attendance of their shift from their own panel. Those reports build an online **attendance matrix** for Human Resources and the contract administrator, which then produces **KPI reports** delivered automatically to the end client.
+
+- Deployed entirely on **Cloudflare**, with no frameworks or npm dependencies.
+- Protected with **Cloudflare Turnstile** and rate limiting.
+- Produces **PDF** and **Excel (.xlsx)** reports.
 
 <picture><img src="https://skillicons.dev/icons?i=html,css,js,cloudflare,nodejs,sqlite,py" alt="HTML, CSS, JavaScript, Cloudflare, Node.js, SQLite, Python"/></picture>
 <br/>
@@ -469,6 +463,7 @@ Web system for **attendance tracking** and **FTE and man-hour** calculation by a
 <picture><img src="https://img.shields.io/badge/D1-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare D1"/></picture>
 <picture><img src="https://img.shields.io/badge/R2-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare R2"/></picture>
 <picture><img src="https://img.shields.io/badge/Wrangler-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Wrangler"/></picture>
+<picture><img src="https://img.shields.io/badge/Turnstile-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Turnstile"/></picture>
 <picture><img src="https://img.shields.io/badge/AES--GCM-555555?style=flat-square" alt="AES-GCM"/></picture>
 <picture><img src="https://img.shields.io/badge/openpyxl-217346?style=flat-square" alt="openpyxl"/></picture>
 
@@ -480,20 +475,20 @@ Web system for **attendance tracking** and **FTE and man-hour** calculation by a
 
 <h3>RADIM – Mining information systems unification</h3>
 
-<picture><img src="https://img.shields.io/badge/In%20production-2EA44F?style=flat-square" alt="In production"/></picture>
+<picture><img src="https://img.shields.io/badge/MVP-D97706?style=flat-square" alt="MVP"/></picture>
 
-Platform that brings the division's **process data** (DRT, SX-EW and copper bundles) into a single application.
+Platform connected to the mine's IT systems (**AVEVA PI System** and the **LIMS** database) that gathers critical information in one place to cross-reference it live and build **automated KPI reports**.
 
-- Live and historical **AVEVA PI System** queries, with averages.
-- CSV upload, Excel export and **interactive charts**.
-- **JWT** authentication with roles, bcrypt passwords, lockout after failed attempts and an audit log.
-- Runs as a **desktop app** through pywebview.
-- Ready to connect to **Oracle**.
+- Direct, efficient data queries.
+- **PDF** report export and data extraction to **Excel**.
+- Direct sign-in with the Codelco corporate account (**Active Directory**).
+- Desktop application.
 
 <picture><img src="https://skillicons.dev/icons?i=py,fastapi,sqlite,html,css,js" alt="Python, FastAPI, SQLite, HTML, CSS, JavaScript"/></picture>
 <br/>
 <picture><img src="https://img.shields.io/badge/Uvicorn-499848?style=flat-square" alt="Uvicorn"/></picture>
 <picture><img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" alt="Pydantic"/></picture>
+<picture><img src="https://img.shields.io/badge/Active%20Directory-0078D4?style=flat-square" alt="Active Directory"/></picture>
 <picture><img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT"/></picture>
 <picture><img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas"/></picture>
 <picture><img src="https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white" alt="Chart.js"/></picture>
@@ -509,24 +504,23 @@ Platform that brings the division's **process data** (DRT, SX-EW and copper bund
 
 <h3>LIMS instrument integration</h3>
 
-Three desktop apps that connect laboratory analytical instruments to **SampleManager LIMS 21.3**, without modifying the instruments' software or the LIMS database.
+Apps that act as a **bridge** between the analytical instruments and the division's **SampleManager LIMS 21.3**, tailored to its configuration. They receive the instrument's *raw* data and convert it into the format the LIMS parser can read.
 
 <b>Includes 3 integrations:</b> 1. EAA Bridge · 2. APT Bridge · 3. Sulfur Watcher
 
 <table>
 <tr><td>
 
-<h4>1 · EAA Bridge – Atomic absorption instruments</h4>
+<h4>1 · EAA Bridge – Agilent SpectrAA atomic absorption</h4>
 
 <picture><img src="https://img.shields.io/badge/In%20production-2EA44F?style=flat-square" alt="In production"/></picture>
 
-Connects **atomic absorption (AAS)** instruments to the LIMS.
+Bridge between the **Agilent SpectrAA atomic absorption (AAS)** instrument and the LIMS.
 
-- Reads the instrument's results and label sheets, and **detects batches**.
-- Writes to a watched folder processed by the LIMS Parsing Script.
-- Every operation is logged with a **SHA-256 hash**.
-- Modules for Pb Cathodes, Solutions and Organics.
-- Compiles to **a single .exe**, with a delivery package ready for cybersecurity review.
+- Loads the header generated by the LIMS as a **.lbl** label, with the sample point, sample ID and replicate (`SP@ID/REP` format).
+- **Watcher** that checks every 5 seconds and detects when the instrument has finished reading.
+- Covers Solutions, Solids, Organics and Pb in cathodes.
+- Lightweight, portable program: a single precompiled **.exe**.
 
 <picture><img src="https://skillicons.dev/icons?i=cs,dotnet,windows" alt="C#, .NET, Windows"/></picture>
 <br/>
@@ -542,13 +536,12 @@ Connects **atomic absorption (AAS)** instruments to the LIMS.
 
 <picture><img src="https://img.shields.io/badge/In%20production-2EA44F?style=flat-square" alt="In production"/></picture>
 
-Connects the **Hanon APT960 potentiometric titrator** to the LIMS without modifying the instrument's software or databases.
+Bridge between the **Hanon APT960 potentiometric titrator** and the LIMS.
 
-- Reads the LIMS .lbl header and loads the batch into the instrument through **Win32 automation**, verifying every row written.
-- Monitors Export.mdb read-only and shows each result as soon as the instrument finishes it.
-- Publishes the LIMS output **atomically**, only with the full batch and no ambiguity.
-- **Fail-closed** design: never starts the titration and stops loading on any mismatch.
-- Per-instrument profiles (Acidity, potentiometric Cl, pH) and **a single portable .exe** with SHA-256 hash.
+- Loads the header generated by the LIMS as a **.lbl** label.
+- Automates loading the batch into the instrument through **Win32**.
+- **Watcher** that monitors the data in real time.
+- Shows each result as soon as it is read; the instrument's own software only lets you review them once the whole batch is finished.
 
 <picture><img src="https://skillicons.dev/icons?i=py,qt,windows,powershell" alt="Python, Qt, Windows, PowerShell"/></picture>
 <br/>
@@ -562,17 +555,14 @@ Connects the **Hanon APT960 potentiometric titrator** to the LIMS without modify
 </td></tr>
 <tr><td>
 
-<h4>3 · Sulfur Watcher – LECO sulfur analyzer</h4>
+<h4>3 · Sulfur Watcher – LECO CS844</h4>
 
 <picture><img src="https://img.shields.io/badge/In%20production-2EA44F?style=flat-square" alt="In production"/></picture>
 
-Watches the **LECO analyzer** .csv reports and prepares them for the LIMS, which only accepts samples with exactly 3 replicates.
+Bridge between the **LECO CS844 sulfur analyzer** and the LIMS, working mainly as a *watcher*.
 
-- When a report has 4 to 6 replicates, it **keeps the 3 most consistent**, dropping the ones farthest from the median one by one.
-- Edits the file **at byte level**: format, encoding and header stay identical to the instrument's original.
-- Publishes **atomically** (.tmp + rename), without overwriting and only once the source file is fully written.
-- Optional consistency check by range and RSD: holds the sample and requires an operator decision.
-- Full audit log, a **status LED** visible from a distance and a single portable .exe with SHA-256 hash.
+- Receives the RT cathode format (**LOT + BG**).
+- Checks the replicates read: if there are more than 3, it calculates which to keep and **always sends 3** to the LIMS.
 
 <picture><img src="https://skillicons.dev/icons?i=cs,dotnet,windows,powershell" alt="C#, .NET, Windows, PowerShell"/></picture>
 <br/>
@@ -591,22 +581,21 @@ Watches the **LECO analyzer** .csv reports and prepares them for the LIMS, which
 <table>
 <tr><td>
 
-<h3>RAG documentation assistant – SampleManager LIMS 21.3</h3>
+<h3>RAG documentation assistant for SampleManager LIMS 21.3</h3>
 
-<picture><img src="https://img.shields.io/badge/In%20production-2EA44F?style=flat-square" alt="In production"/></picture>
+<picture><img src="https://img.shields.io/badge/MVP-D97706?style=flat-square" alt="MVP"/></picture>
+<picture><img src="https://img.shields.io/badge/Personal%20use-6E7781?style=flat-square" alt="Personal use"/></picture>
 
-**Retrieval-augmented generation (RAG)** search engine over the full technical documentation of **SampleManager LIMS 21.3**, queryable by AI agents through **MCP**.
+Search engine with **retrieval-augmented generation (RAG)** over the full technical documentation of **SampleManager LIMS 21.3**, queryable by AI agents through **MCP**.
 
-- Indexes **48,067 documents** (HTML, PDF, CHM and C#) into **92,500 chunks**.
-- **Hybrid search**: BM25 keyword ranking plus semantic embeddings, merged with Reciprocal Rank Fusion.
-- Every answer cites the **path, section, module and page** of the source document.
-- Ask in Spanish about English documentation, with term expansion.
-- **MCP** server for Claude Code, plus web UI, API and CLI.
-- Runs entirely on-premise: SQLite and NumPy, with an optional local LLM on **Ollama**.
+- **Hybrid search**: BM25 by keywords and embeddings by meaning, combined with Reciprocal Rank Fusion.
+- **MCP** server for Claude.
+- Integrated with **Ollama** and the local **Qwen3:14B** model.
 
 <picture><img src="https://skillicons.dev/icons?i=py,sqlite,fastapi,powershell" alt="Python, SQLite, FastAPI, PowerShell"/></picture>
 <br/>
 <picture><img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama"/></picture>
+<picture><img src="https://img.shields.io/badge/Qwen3%3A14B-615CED?style=flat-square" alt="Qwen3:14B"/></picture>
 <picture><img src="https://img.shields.io/badge/MCP-000000?style=flat-square&logo=modelcontextprotocol&logoColor=white" alt="MCP"/></picture>
 <picture><img src="https://img.shields.io/badge/SQLite%20FTS5-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite FTS5"/></picture>
 <picture><img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy"/></picture>
@@ -620,16 +609,15 @@ Watches the **LECO analyzer** .csv reports and prepares them for the LIMS, which
 <table>
 <tr><td>
 
-<h3>Lingada Cathodes data entry system – SGS Minerals S.A.</h3>
+<h3>Lingada Cathodes data entry system</h3>
 
 <picture><img src="https://img.shields.io/badge/In%20production-2EA44F?style=flat-square" alt="In production"/></picture>
 
-Desktop app to record failures or **non-conformities** found during the physical inspection of copper cathodes.
+Desktop app with a local database to record physical defects found during **cathode inspection**, i.e. the non-conformities reported to the end client.
 
-- Records the non-conformities found in the **physical inspection of cathodes**.
-- **Dashboard** filterable by date, item and bank-group.
-- Sends **automatic emails**.
-- Generates **PDF reports**.
+- Built-in **dashboard** with real-time information.
+- **Automatic email** when data entry is finished, plus a daily report covering the last 7 days.
+- **PDF** reports with the critical KPIs.
 
 <picture><img src="https://skillicons.dev/icons?i=electron,js,nodejs" alt="Electron, JavaScript, Node.js"/></picture>
 <br/>
@@ -644,19 +632,19 @@ Desktop app to record failures or **non-conformities** found during the physical
 <table>
 <tr><td>
 
-<h3>TMM Failure Pareto – Equipment failure analysis</h3>
+<h3>TMM Failure Pareto</h3>
 
 <picture><img src="https://img.shields.io/badge/In%20production-2EA44F?style=flat-square" alt="In production"/></picture>
 
-Desktop app that replaces the TMM (DRT) failure-log Excel and produces **reliability analysis** by equipment and component.
+Desktop app to record failures of the **sampling tower**.
 
-- Failure logging by shift (A/B) and **80/20 Pareto** drill-down: equipment → component → observation → data.
-- **Jack-knife** analysis (MTTR / number of failures), decision matrix, hours history and monthly comparison.
-- Imports the legacy Excel and daily matrices; exports to Excel, CSV, PNG and PDF with a **custom OOXML reader/writer**.
-- **Automatic daily PDF report** sent through Gmail (OAuth2 and REST API implemented by hand).
-- **Multi-PC sync** over an SMB shared folder: one file per PC, last-writer-wins merge, locking and ACL self-repair.
-- Role-based login (Admin/Operator), PBKDF2-SHA256 passwords and lockout after failed attempts.
-- **A single .exe**: no installer, no admin rights and no third-party dependencies.
+- Failure logging by equipment and component, with downtime measured in hours.
+- Automatically built **80/20 Pareto** charts.
+- **Jack-knife** analysis.
+- Monthly comparison.
+- **Automatic email** through the Google API.
+- Sync over Codelco's internal network.
+- Lightweight, portable executable.
 
 <picture><img src="https://skillicons.dev/icons?i=cs,dotnet,windows" alt="C#, .NET, Windows"/></picture>
 <br/>
