@@ -148,7 +148,6 @@ Plataforma conectada a los sistemas informáticos mineros (**AVEVA PI System** y
 <picture><img src="https://img.shields.io/badge/Uvicorn-499848?style=flat-square" alt="Uvicorn"/></picture>
 <picture><img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" alt="Pydantic"/></picture>
 <picture><img src="https://img.shields.io/badge/Active%20Directory-0078D4?style=flat-square" alt="Active Directory"/></picture>
-<picture><img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT"/></picture>
 <picture><img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas"/></picture>
 <picture><img src="https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white" alt="Chart.js"/></picture>
 <picture><img src="https://img.shields.io/badge/PI%20SDK%20%C2%B7%20PIconnect-0067B1?style=flat-square" alt="PI SDK · PIconnect"/></picture>
@@ -492,7 +491,6 @@ Platform connected to the mine's IT systems (**AVEVA PI System** and the **LIMS*
 <picture><img src="https://img.shields.io/badge/Uvicorn-499848?style=flat-square" alt="Uvicorn"/></picture>
 <picture><img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" alt="Pydantic"/></picture>
 <picture><img src="https://img.shields.io/badge/Active%20Directory-0078D4?style=flat-square" alt="Active Directory"/></picture>
-<picture><img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT"/></picture>
 <picture><img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas"/></picture>
 <picture><img src="https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white" alt="Chart.js"/></picture>
 <picture><img src="https://img.shields.io/badge/PI%20SDK%20%C2%B7%20PIconnect-0067B1?style=flat-square" alt="PI SDK · PIconnect"/></picture>
