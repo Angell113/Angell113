@@ -17,17 +17,42 @@
 <table align="center">
   <tr>
     <td align="center"><b>Lenguajes<br/><sub>Languages</sub></b></td>
-    <td><picture><img src="https://skillicons.dev/icons?i=py,cs,dotnet,js,ts,html,css,powershell&perline=8" alt="Python, C#, .NET, JavaScript, TypeScript, HTML, CSS, PowerShell"/></picture></td>
+    <td>
+      <picture><img src="https://skillicons.dev/icons?i=py" width="48" height="48" title="Python" alt="Python"/></picture>
+      <picture><img src="https://skillicons.dev/icons?i=cs" width="48" height="48" title="C#" alt="C#"/></picture>
+      <picture><img src="https://skillicons.dev/icons?i=dotnet" width="48" height="48" title=".NET" alt=".NET"/></picture>
+      <picture><img src="https://skillicons.dev/icons?i=js" width="48" height="48" title="JavaScript" alt="JavaScript"/></picture>
+      <picture><img src="https://skillicons.dev/icons?i=ts" width="48" height="48" title="TypeScript" alt="TypeScript"/></picture>
+      <picture><img src="https://skillicons.dev/icons?i=html" width="48" height="48" title="HTML" alt="HTML"/></picture>
+      <picture><img src="https://skillicons.dev/icons?i=css" width="48" height="48" title="CSS" alt="CSS"/></picture>
+      <picture><img src="https://skillicons.dev/icons?i=powershell" width="48" height="48" title="PowerShell" alt="PowerShell"/></picture>
+    </td>
   </tr>
   <tr>
     <td align="center"><b>Frameworks</b></td>
-    <td><picture><img src="https://skillicons.dev/icons?i=react,vite,nextjs,tailwind,nodejs,fastapi,deno,electron&perline=8" alt="React, Vite, Next.js, Tailwind, Node.js, FastAPI, Deno, Electron"/></picture></td>
+    <td>
+      <picture><img src="https://skillicons.dev/icons?i=react" width="48" height="48" title="React" alt="React"/></picture>
+      <picture><img src="https://skillicons.dev/icons?i=vite" width="48" height="48" title="Vite" alt="Vite"/></picture>
+      <picture><img src="https://skillicons.dev/icons?i=nextjs" width="48" height="48" title="Next.js" alt="Next.js"/></picture>
+      <picture><img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" title="Tailwind CSS" alt="Tailwind CSS"/></picture>
+      <picture><img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" title="Node.js" alt="Node.js"/></picture>
+      <picture><img src="https://skillicons.dev/icons?i=fastapi" width="48" height="48" title="FastAPI" alt="FastAPI"/></picture>
+      <picture><img src="https://skillicons.dev/icons?i=deno" width="48" height="48" title="Deno" alt="Deno"/></picture>
+      <picture><img src="https://skillicons.dev/icons?i=electron" width="48" height="48" title="Electron" alt="Electron"/></picture>
+    </td>
   </tr>
   <tr>
     <td align="center"><b>Datos e infra<br/><sub>Data & infra</sub></b></td>
     <td>
-      <picture><img src="https://skillicons.dev/icons?i=sqlite,postgres,supabase,cloudflare,vercel,linux,git,github&perline=8" alt="SQLite, PostgreSQL, Supabase, Cloudflare, Vercel, Linux, Git, GitHub"/></picture>
-      <picture><img src="assets/oracle.svg" width="48" height="48" alt="Oracle Database"/></picture>
+      <picture><img src="https://skillicons.dev/icons?i=sqlite" width="48" height="48" title="SQLite" alt="SQLite"/></picture>
+      <picture><img src="https://skillicons.dev/icons?i=postgres" width="48" height="48" title="PostgreSQL" alt="PostgreSQL"/></picture>
+      <picture><img src="https://skillicons.dev/icons?i=supabase" width="48" height="48" title="Supabase" alt="Supabase"/></picture>
+      <picture><img src="https://skillicons.dev/icons?i=cloudflare" width="48" height="48" title="Cloudflare" alt="Cloudflare"/></picture>
+      <picture><img src="https://skillicons.dev/icons?i=vercel" width="48" height="48" title="Vercel" alt="Vercel"/></picture>
+      <picture><img src="https://skillicons.dev/icons?i=linux" width="48" height="48" title="Linux" alt="Linux"/></picture>
+      <picture><img src="https://skillicons.dev/icons?i=git" width="48" height="48" title="Git" alt="Git"/></picture>
+      <picture><img src="https://skillicons.dev/icons?i=github" width="48" height="48" title="GitHub" alt="GitHub"/></picture>
+      <picture><img src="assets/oracle.svg" width="48" height="48" title="Oracle Database" alt="Oracle Database"/></picture>
     </td>
   </tr>
   <tr>
@@ -88,7 +113,14 @@ Funciona en la nube desde tres dispositivos: una **tablet** para la entrega de E
 - **Online-first**, con caché local en IndexedDB para zonas con poca señal.
 - **Informes mensuales** y exportación a Excel de inventario, registros e historial.
 
-<picture><img src="https://skillicons.dev/icons?i=react,vite,js,css,supabase,postgres,deno,vercel" alt="React, Vite, JavaScript, CSS, Supabase, PostgreSQL, Deno, Vercel"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=react" width="48" height="48" title="React" alt="React"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=vite" width="48" height="48" title="Vite" alt="Vite"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=js" width="48" height="48" title="JavaScript" alt="JavaScript"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=css" width="48" height="48" title="CSS" alt="CSS"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=supabase" width="48" height="48" title="Supabase" alt="Supabase"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=postgres" width="48" height="48" title="PostgreSQL" alt="PostgreSQL"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=deno" width="48" height="48" title="Deno" alt="Deno"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=vercel" width="48" height="48" title="Vercel" alt="Vercel"/></picture>
 <br/>
 <picture><img src="https://img.shields.io/badge/React%20Router%207-CA4245?style=flat-square&logo=reactrouter&logoColor=white" alt="React Router 7"/></picture>
 <picture><img src="https://img.shields.io/badge/IndexedDB-555555?style=flat-square" alt="IndexedDB"/></picture>
@@ -115,7 +147,13 @@ Cada supervisor declara desde su propio panel la asistencia del turno a su cargo
 - Protección con **Cloudflare Turnstile** y límite de intentos (rate limit).
 - Genera informes en **PDF** y **Excel (.xlsx)**.
 
-<picture><img src="https://skillicons.dev/icons?i=html,css,js,cloudflare,nodejs,sqlite,py" alt="HTML, CSS, JavaScript, Cloudflare, Node.js, SQLite, Python"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=html" width="48" height="48" title="HTML" alt="HTML"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=css" width="48" height="48" title="CSS" alt="CSS"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=js" width="48" height="48" title="JavaScript" alt="JavaScript"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=cloudflare" width="48" height="48" title="Cloudflare" alt="Cloudflare"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" title="Node.js" alt="Node.js"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=sqlite" width="48" height="48" title="SQLite" alt="SQLite"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=py" width="48" height="48" title="Python" alt="Python"/></picture>
 <br/>
 <picture><img src="https://img.shields.io/badge/Workers-F38020?style=flat-square&logo=cloudflareworkers&logoColor=white" alt="Cloudflare Workers"/></picture>
 <picture><img src="https://img.shields.io/badge/Pages-F38020?style=flat-square&logo=cloudflarepages&logoColor=white" alt="Cloudflare Pages"/></picture>
@@ -143,7 +181,12 @@ Plataforma conectada a los sistemas informáticos mineros (**AVEVA PI System** y
 - Autenticación directa con la cuenta corporativa de Codelco (**Active Directory**).
 - Aplicación de escritorio.
 
-<picture><img src="https://skillicons.dev/icons?i=py,fastapi,sqlite,html,css,js" alt="Python, FastAPI, SQLite, HTML, CSS, JavaScript"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=py" width="48" height="48" title="Python" alt="Python"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=fastapi" width="48" height="48" title="FastAPI" alt="FastAPI"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=sqlite" width="48" height="48" title="SQLite" alt="SQLite"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=html" width="48" height="48" title="HTML" alt="HTML"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=css" width="48" height="48" title="CSS" alt="CSS"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=js" width="48" height="48" title="JavaScript" alt="JavaScript"/></picture>
 <br/>
 <picture><img src="https://img.shields.io/badge/Uvicorn-499848?style=flat-square" alt="Uvicorn"/></picture>
 <picture><img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" alt="Pydantic"/></picture>
@@ -181,7 +224,9 @@ Puente entre el equipo de **absorción atómica (EAA) Agilent SpectrAA** y el LI
 - Cubre Soluciones, Sólidos, Orgánicos y Pb en cátodos.
 - Programa liviano y portable: un solo **.exe** ya compilado.
 
-<picture><img src="https://skillicons.dev/icons?i=cs,dotnet,windows" alt="C#, .NET, Windows"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=cs" width="48" height="48" title="C#" alt="C#"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=dotnet" width="48" height="48" title=".NET" alt=".NET"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=windows" width="48" height="48" title="Windows" alt="Windows"/></picture>
 <br/>
 <picture><img src="https://img.shields.io/badge/.NET%20Framework%204.0-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET Framework 4.0"/></picture>
 <picture><img src="https://img.shields.io/badge/Windows%20Forms-0078D4?style=flat-square" alt="Windows Forms"/></picture>
@@ -203,7 +248,10 @@ Puente entre el **titulador potenciométrico Hanon APT960** y el LIMS.
 - Muestra cada resultado apenas se lee, en **tiempo real**.
 - El software del equipo, en cambio, solo permite revisarlos al terminar la batería.
 
-<picture><img src="https://skillicons.dev/icons?i=py,qt,windows,powershell" alt="Python, Qt, Windows, PowerShell"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=py" width="48" height="48" title="Python" alt="Python"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=qt" width="48" height="48" title="Qt" alt="Qt"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=windows" width="48" height="48" title="Windows" alt="Windows"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=powershell" width="48" height="48" title="PowerShell" alt="PowerShell"/></picture>
 <br/>
 <picture><img src="https://img.shields.io/badge/Python%203.12-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python 3.12"/></picture>
 <picture><img src="https://img.shields.io/badge/PyQt6-41CD52?style=flat-square&logo=qt&logoColor=white" alt="PyQt6"/></picture>
@@ -225,7 +273,10 @@ Puente entre el **analizador de azufre LECO CS844** y el LIMS, que funciona prin
 - Comprueba las réplicas leídas: si hay más de 3, calcula cuáles conservar.
 - **Siempre traspasa exactamente 3** réplicas al LIMS.
 
-<picture><img src="https://skillicons.dev/icons?i=cs,dotnet,windows,powershell" alt="C#, .NET, Windows, PowerShell"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=cs" width="48" height="48" title="C#" alt="C#"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=dotnet" width="48" height="48" title=".NET" alt=".NET"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=windows" width="48" height="48" title="Windows" alt="Windows"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=powershell" width="48" height="48" title="PowerShell" alt="PowerShell"/></picture>
 <br/>
 <picture><img src="https://img.shields.io/badge/.NET%20Framework%204.0-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET Framework 4.0"/></picture>
 <picture><img src="https://img.shields.io/badge/WinForms-0078D4?style=flat-square" alt="WinForms"/></picture>
@@ -253,7 +304,10 @@ Motor de búsqueda con **recuperación aumentada (RAG)** sobre toda la documenta
 - Servidor **MCP** para Claude.
 - Integrado con **Ollama** y el modelo local **Qwen3:14B**.
 
-<picture><img src="https://skillicons.dev/icons?i=py,sqlite,fastapi,powershell" alt="Python, SQLite, FastAPI, PowerShell"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=py" width="48" height="48" title="Python" alt="Python"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=sqlite" width="48" height="48" title="SQLite" alt="SQLite"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=fastapi" width="48" height="48" title="FastAPI" alt="FastAPI"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=powershell" width="48" height="48" title="PowerShell" alt="PowerShell"/></picture>
 <br/>
 <picture><img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama"/></picture>
 <picture><img src="https://img.shields.io/badge/Qwen3%3A14B-615CED?style=flat-square" alt="Qwen3:14B"/></picture>
@@ -280,7 +334,9 @@ Aplicación de escritorio con base de datos local para registrar las fallas fís
 - **Correo automático** al terminar el ingreso de datos, más un informe diario con los últimos 7 días.
 - Informes en **PDF** con los KPIs críticos.
 
-<picture><img src="https://skillicons.dev/icons?i=electron,js,nodejs" alt="Electron, JavaScript, Node.js"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=electron" width="48" height="48" title="Electron" alt="Electron"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=js" width="48" height="48" title="JavaScript" alt="JavaScript"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" title="Node.js" alt="Node.js"/></picture>
 <br/>
 <picture><img src="https://img.shields.io/badge/Electron%2041-47848F?style=flat-square&logo=electron&logoColor=white" alt="Electron 41"/></picture>
 <picture><img src="https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white" alt="Chart.js"/></picture>
@@ -307,7 +363,9 @@ App de escritorio para registrar las fallas de la **torre de muestreo**.
 - Sincronización a través de la red interna de Codelco.
 - Ejecutable portable y liviano.
 
-<picture><img src="https://skillicons.dev/icons?i=cs,dotnet,windows" alt="C#, .NET, Windows"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=cs" width="48" height="48" title="C#" alt="C#"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=dotnet" width="48" height="48" title=".NET" alt=".NET"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=windows" width="48" height="48" title="Windows" alt="Windows"/></picture>
 <br/>
 <picture><img src="https://img.shields.io/badge/.NET%20Framework%204.8-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET Framework 4.8"/></picture>
 <picture><img src="https://img.shields.io/badge/WinForms-0078D4?style=flat-square" alt="WinForms"/></picture>
@@ -431,7 +489,14 @@ It runs in the cloud on three devices: a **tablet** for handing out PPE, a **com
 - **Online-first**, with a local IndexedDB cache for areas with poor signal.
 - **Monthly reports** and Excel export of inventory, records and history.
 
-<picture><img src="https://skillicons.dev/icons?i=react,vite,js,css,supabase,postgres,deno,vercel" alt="React, Vite, JavaScript, CSS, Supabase, PostgreSQL, Deno, Vercel"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=react" width="48" height="48" title="React" alt="React"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=vite" width="48" height="48" title="Vite" alt="Vite"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=js" width="48" height="48" title="JavaScript" alt="JavaScript"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=css" width="48" height="48" title="CSS" alt="CSS"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=supabase" width="48" height="48" title="Supabase" alt="Supabase"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=postgres" width="48" height="48" title="PostgreSQL" alt="PostgreSQL"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=deno" width="48" height="48" title="Deno" alt="Deno"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=vercel" width="48" height="48" title="Vercel" alt="Vercel"/></picture>
 <br/>
 <picture><img src="https://img.shields.io/badge/React%20Router%207-CA4245?style=flat-square&logo=reactrouter&logoColor=white" alt="React Router 7"/></picture>
 <picture><img src="https://img.shields.io/badge/IndexedDB-555555?style=flat-square" alt="IndexedDB"/></picture>
@@ -458,7 +523,13 @@ Each supervisor reports the attendance of their shift from their own panel. Thos
 - Protected with **Cloudflare Turnstile** and rate limiting.
 - Produces **PDF** and **Excel (.xlsx)** reports.
 
-<picture><img src="https://skillicons.dev/icons?i=html,css,js,cloudflare,nodejs,sqlite,py" alt="HTML, CSS, JavaScript, Cloudflare, Node.js, SQLite, Python"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=html" width="48" height="48" title="HTML" alt="HTML"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=css" width="48" height="48" title="CSS" alt="CSS"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=js" width="48" height="48" title="JavaScript" alt="JavaScript"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=cloudflare" width="48" height="48" title="Cloudflare" alt="Cloudflare"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" title="Node.js" alt="Node.js"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=sqlite" width="48" height="48" title="SQLite" alt="SQLite"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=py" width="48" height="48" title="Python" alt="Python"/></picture>
 <br/>
 <picture><img src="https://img.shields.io/badge/Workers-F38020?style=flat-square&logo=cloudflareworkers&logoColor=white" alt="Cloudflare Workers"/></picture>
 <picture><img src="https://img.shields.io/badge/Pages-F38020?style=flat-square&logo=cloudflarepages&logoColor=white" alt="Cloudflare Pages"/></picture>
@@ -486,7 +557,12 @@ Platform connected to the mine's IT systems (**AVEVA PI System** and the **LIMS*
 - Direct sign-in with the Codelco corporate account (**Active Directory**).
 - Desktop application.
 
-<picture><img src="https://skillicons.dev/icons?i=py,fastapi,sqlite,html,css,js" alt="Python, FastAPI, SQLite, HTML, CSS, JavaScript"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=py" width="48" height="48" title="Python" alt="Python"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=fastapi" width="48" height="48" title="FastAPI" alt="FastAPI"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=sqlite" width="48" height="48" title="SQLite" alt="SQLite"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=html" width="48" height="48" title="HTML" alt="HTML"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=css" width="48" height="48" title="CSS" alt="CSS"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=js" width="48" height="48" title="JavaScript" alt="JavaScript"/></picture>
 <br/>
 <picture><img src="https://img.shields.io/badge/Uvicorn-499848?style=flat-square" alt="Uvicorn"/></picture>
 <picture><img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" alt="Pydantic"/></picture>
@@ -524,7 +600,9 @@ Bridge between the **Agilent SpectrAA atomic absorption (AAS)** instrument and t
 - Covers Solutions, Solids, Organics and Pb in cathodes.
 - Lightweight, portable program: a single precompiled **.exe**.
 
-<picture><img src="https://skillicons.dev/icons?i=cs,dotnet,windows" alt="C#, .NET, Windows"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=cs" width="48" height="48" title="C#" alt="C#"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=dotnet" width="48" height="48" title=".NET" alt=".NET"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=windows" width="48" height="48" title="Windows" alt="Windows"/></picture>
 <br/>
 <picture><img src="https://img.shields.io/badge/.NET%20Framework%204.0-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET Framework 4.0"/></picture>
 <picture><img src="https://img.shields.io/badge/Windows%20Forms-0078D4?style=flat-square" alt="Windows Forms"/></picture>
@@ -546,7 +624,10 @@ Bridge between the **Hanon APT960 potentiometric titrator** and the LIMS.
 - Shows each result as soon as it is read, in **real time**.
 - The instrument's own software only shows them once the batch is finished.
 
-<picture><img src="https://skillicons.dev/icons?i=py,qt,windows,powershell" alt="Python, Qt, Windows, PowerShell"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=py" width="48" height="48" title="Python" alt="Python"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=qt" width="48" height="48" title="Qt" alt="Qt"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=windows" width="48" height="48" title="Windows" alt="Windows"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=powershell" width="48" height="48" title="PowerShell" alt="PowerShell"/></picture>
 <br/>
 <picture><img src="https://img.shields.io/badge/Python%203.12-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python 3.12"/></picture>
 <picture><img src="https://img.shields.io/badge/PyQt6-41CD52?style=flat-square&logo=qt&logoColor=white" alt="PyQt6"/></picture>
@@ -568,7 +649,10 @@ Bridge between the **LECO CS844 sulfur analyzer** and the LIMS, working mainly a
 - Checks the replicates read: with more than 3, it picks which to keep.
 - **Always sends exactly 3** replicates to the LIMS.
 
-<picture><img src="https://skillicons.dev/icons?i=cs,dotnet,windows,powershell" alt="C#, .NET, Windows, PowerShell"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=cs" width="48" height="48" title="C#" alt="C#"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=dotnet" width="48" height="48" title=".NET" alt=".NET"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=windows" width="48" height="48" title="Windows" alt="Windows"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=powershell" width="48" height="48" title="PowerShell" alt="PowerShell"/></picture>
 <br/>
 <picture><img src="https://img.shields.io/badge/.NET%20Framework%204.0-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET Framework 4.0"/></picture>
 <picture><img src="https://img.shields.io/badge/WinForms-0078D4?style=flat-square" alt="WinForms"/></picture>
@@ -596,7 +680,10 @@ Search engine with **retrieval-augmented generation (RAG)** over the full techni
 - **MCP** server for Claude.
 - Integrated with **Ollama** and the local **Qwen3:14B** model.
 
-<picture><img src="https://skillicons.dev/icons?i=py,sqlite,fastapi,powershell" alt="Python, SQLite, FastAPI, PowerShell"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=py" width="48" height="48" title="Python" alt="Python"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=sqlite" width="48" height="48" title="SQLite" alt="SQLite"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=fastapi" width="48" height="48" title="FastAPI" alt="FastAPI"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=powershell" width="48" height="48" title="PowerShell" alt="PowerShell"/></picture>
 <br/>
 <picture><img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama"/></picture>
 <picture><img src="https://img.shields.io/badge/Qwen3%3A14B-615CED?style=flat-square" alt="Qwen3:14B"/></picture>
@@ -623,7 +710,9 @@ Desktop app with a local database to record physical defects found during **cath
 - **Automatic email** when data entry is finished, plus a daily report covering the last 7 days.
 - **PDF** reports with the critical KPIs.
 
-<picture><img src="https://skillicons.dev/icons?i=electron,js,nodejs" alt="Electron, JavaScript, Node.js"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=electron" width="48" height="48" title="Electron" alt="Electron"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=js" width="48" height="48" title="JavaScript" alt="JavaScript"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" title="Node.js" alt="Node.js"/></picture>
 <br/>
 <picture><img src="https://img.shields.io/badge/Electron%2041-47848F?style=flat-square&logo=electron&logoColor=white" alt="Electron 41"/></picture>
 <picture><img src="https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white" alt="Chart.js"/></picture>
@@ -650,7 +739,9 @@ Desktop app to record failures of the **sampling tower**.
 - Sync over Codelco's internal network.
 - Lightweight, portable executable.
 
-<picture><img src="https://skillicons.dev/icons?i=cs,dotnet,windows" alt="C#, .NET, Windows"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=cs" width="48" height="48" title="C#" alt="C#"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=dotnet" width="48" height="48" title=".NET" alt=".NET"/></picture>
+<picture><img src="https://skillicons.dev/icons?i=windows" width="48" height="48" title="Windows" alt="Windows"/></picture>
 <br/>
 <picture><img src="https://img.shields.io/badge/.NET%20Framework%204.8-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET Framework 4.8"/></picture>
 <picture><img src="https://img.shields.io/badge/WinForms-0078D4?style=flat-square" alt="WinForms"/></picture>
